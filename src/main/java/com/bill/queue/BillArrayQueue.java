@@ -7,28 +7,42 @@ import java.util.NoSuchElementException;
  */
 public class BillArrayQueue<T> {
 
-    private static final int DEFAULT_CAPACITY = 10;
+    /**
+     * 初始容量
+     * */
+    private static final int DEFAULT_CAPACITY = 5;
 
+    /**
+     * 队头
+     * */
     private int front = 0;
 
-    private int rear = 0;
+    /**
+     * 队尾
+     * */
+    private int rear = -1;
 
     private T[] items;
+
+    /**
+     * 数据项个数
+     * */
+    private int nItems;
 
     public BillArrayQueue(){
         items = (T[]) new Object[DEFAULT_CAPACITY];
     }
 
     public void enqueue(T item){
-        if(rear == items.length){
+        if(rear-front == items.length-1){
             enlargeQueue();
         }
-        items[rear++] = item;
+        items[++rear] = item;
     }
 
     public T dequeue(){
-        if(front == 0){
-            throw new NoSuchElementException();
+        if(items[front] == null){
+            throw new NoSuchElementException("该队列为空");
         }
 
         return items[front++];
