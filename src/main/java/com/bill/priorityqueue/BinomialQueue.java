@@ -90,7 +90,9 @@ public class BinomialQueue<T extends Comparable<T>> {
         merge(new BinomialQueue<T>(element));
     }
 
-    public T findMin(){}
+    public T findMin(){
+        return null;
+    }
 
     public T deleteMin() throws Exception {
         if(isEmpty()){
@@ -137,6 +139,7 @@ public class BinomialQueue<T extends Comparable<T>> {
     private void expandTheTrees(int maxLength){}
 
     private int findMinIndex(){
+        return 1;
     }
 
     /**

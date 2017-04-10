@@ -9,10 +9,19 @@ import java.util.Comparator;
 public class BinaryHeap<T extends Comparable<? super T>> {
 
     /* private field */
+    /**
+     * 默认数组元素大小
+     * */
     private static final int DEFAULT_CAPACITY = 10;
 
-    private int currentSize;
+    /**
+     * 当前二叉堆尺寸大小
+     * */
+    private int currentSize = 0;
 
+    /**
+     * 保存元素的二叉堆数组
+     * */
     private T[] array;
 
     /* public method */
@@ -36,7 +45,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     /**
-     * 插入优先队列中，保持堆元素的顺序
+     * 插入二叉堆中，同时保持堆元素的顺序
      *
      * @param element 待插入的堆元素
      * */
@@ -45,7 +54,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
             enlargeArray(array.length * 2 + 1);
         }
 
-        //上滤
+        // 进行上滤操作
         int hole = ++currentSize;
         while ((hole > 1) && (element.compareTo(array[hole / 2]) < 0)){
             array[hole] = array[hole/2];
@@ -58,24 +67,36 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     /**
      * 返回优先队列中的最小值
      *
-     * @return 优先队列堆中的最小值
+     * @return 返回二叉堆中的最小值
      * */
     public T deleteMin(){
         if(isEmpty()){
             throw new NullPointerException();
         }
 
+        // 二叉堆中的最小元素总在树根处，即array[1]处
         T minItem = array[1];
+
+        // 将数组中的最后一个元素放在树根处，并进行下滤操作
+        // 使堆排序正常
         array[1] = array[currentSize--];
         percolateDown(1);
 
         return minItem;
     }
 
+    /**
+     * 判断二叉堆是否为空
+     *
+     * @return 若为空堆，则返回true，反之则为false
+     * */
     public boolean isEmpty(){
         return currentSize == 0;
     }
 
+    /**
+     * 清空二叉堆中的元素
+     * */
     public void makeEmpty(){
         currentSize = 0;
         for (int i = 0; i < array.length; i++) {
@@ -85,7 +106,8 @@ public class BinaryHeap<T extends Comparable<? super T>> {
 
     /* private method */
     /**
-     * 下滤操作
+     * 下滤操作，将父节点不断地与子节点进行比较
+     * 若父节点小于子节点，则进行交换
      *
      * @param hole
      * */
@@ -93,8 +115,11 @@ public class BinaryHeap<T extends Comparable<? super T>> {
         int child;
         T tmp = array[hole];
 
-        for (;hole * 2 <= currentSize; hole=child){
+        for (;hole * 2 <= currentSize; hole = child){
             child = hole * 2;
+
+            // 条件child != currentSize是为了当数组有偶数个元素时
+            // 没有右子节点情况的出现
             if(child != currentSize && array[child+1].compareTo(array[child]) < 0){
                 child++;
             }

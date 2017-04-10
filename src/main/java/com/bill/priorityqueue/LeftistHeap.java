@@ -5,6 +5,9 @@ package com.bill.priorityqueue;
  */
 public class LeftistHeap<T extends Comparable<T>> {
     /* private field */
+    /**
+     * 左式堆的根节点
+     * */
     private Node<T> root;
 
     /* public method */
@@ -49,10 +52,18 @@ public class LeftistHeap<T extends Comparable<T>> {
         return minItem;
     }
 
+    /**
+     * 判断左式堆是否为空
+     *
+     * @return 如果左式堆为空，则返回true，反之则为false
+     * */
     public boolean isEmpty(){
         return root == null;
     }
 
+    /**
+     * 清空左式堆中元素的内容
+     * */
     public void makeEmpty(){
         root = null;
     }
