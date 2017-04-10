@@ -18,17 +18,36 @@ package com.leetcode;
 public class ZigZageSolution {
 
     public static void main(String[] args) {
-        Character[][] textMatrix = new Character[5][6];
-        System.out.println(textMatrix.length);
-        System.out.println(textMatrix[0].length);
+        System.out.println(convert("PAYPALISHIRING", 3));
     }
 
-    public String convert(String text, int nRows){
+    public static String convert(String text, int nRows){
         int nCols = getColumns(text, nRows);
+
+        int count = 0;
 
         Character[][] textMatrix = new Character[nRows][nCols];
 
-        return "tes";
+        for (int j = 0; j < nCols; j++) {
+            if(j % 2 != 0) {
+                textMatrix[nRows / 2][j] = text.toCharArray()[count++];
+                continue;
+            }
+            for (int i = 0; i < nRows; i++) {
+                textMatrix[i][j] = text.toCharArray()[count++];
+            }
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < nRows; i++) {
+            for (int j = 0; j < nCols; j++) {
+                if(textMatrix[i][j] != null){
+                    result.append(textMatrix[i][j]);
+                }
+            }
+        }
+
+        return result.toString();
     }
 
     /**
@@ -36,7 +55,7 @@ public class ZigZageSolution {
      *
      * @param text 待计算的字符串
      * @param nRows 给定的行数
-     * @return
+     * @return 计算后的列数
      * */
     private static int getColumns(String text, int nRows){
         if(text.toCharArray().length % (nRows+1) == 0){
