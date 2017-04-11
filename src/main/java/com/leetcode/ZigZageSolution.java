@@ -2,46 +2,60 @@ package com.leetcode;
 
 /**
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
- *
+ * <p>
  * P   A   H   N
  * A P L S I I G
  * Y   I   R
  * And then read line by line: "PAHNAPLSIIGYIR"
  * Write the code that will take a string and make this conversion given a number of rows:
- *
+ * <p>
  * string convert(string text, int nRows);
  * convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
- *
+ * <p>
  * https://leetcode.com/problems/zigzag-conversion/#/description
- *
  */
 public class ZigZageSolution {
 
     public static void main(String[] args) {
-        System.out.println(convert("PAYPALISHIRING", 3));
+        String test = "PAYPA L ISHIR I NGFSD A FDASF D ASF";
+//        char[] testChar = test.toCharArray();
+//
+//        for (int i = 0; i < testChar.length; i++) {
+//            System.out.println(testChar[i]);
+//        }
+
+        System.out.println(1 % 2);
+        System.out.println(new ZigZageSolution().convert(test, 5));
     }
 
-    public static String convert(String text, int nRows){
+    public String convert(String text, int nRows) {
         int nCols = getColumns(text, nRows);
 
-        int count = 0;
-
         Character[][] textMatrix = new Character[nRows][nCols];
+        char[] textChar = text.toCharArray();
 
-        for (int j = 0; j < nCols; j++) {
-            if(j % 2 != 0) {
-                textMatrix[nRows / 2][j] = text.toCharArray()[count++];
-                continue;
+            for (int k = 0; k < textChar.length; ) {
+                for (int j = 0; j < nCols; j++) {
+                    if (k == textChar.length) {
+                        break;
+                    }
+                    if (nRows % 2 == 1 && j % 2 != 0) {
+                        textMatrix[nRows / 2][j] = textChar[k++];
+                        continue;
+                    }
+                    for (int i = 0; i < nRows; i++) {
+                        if (k == textChar.length) {
+                            break;
+                        }
+                        textMatrix[i][j] = textChar[k++];
+                    }
+                }
             }
-            for (int i = 0; i < nRows; i++) {
-                textMatrix[i][j] = text.toCharArray()[count++];
-            }
-        }
 
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < nRows; i++) {
             for (int j = 0; j < nCols; j++) {
-                if(textMatrix[i][j] != null){
+                if (textMatrix[i][j] != null) {
                     result.append(textMatrix[i][j]);
                 }
             }
@@ -53,15 +67,15 @@ public class ZigZageSolution {
     /**
      * 获取二元数组的列数
      *
-     * @param text 待计算的字符串
+     * @param text  待计算的字符串
      * @param nRows 给定的行数
      * @return 计算后的列数
-     * */
-    private static int getColumns(String text, int nRows){
-        if(text.toCharArray().length % (nRows+1) == 0){
-            return  (text.toCharArray().length / (nRows+1)) * 2;
-        }else{
-            return  (text.toCharArray().length / (nRows+1)) * 2 + 1;
+     */
+    private static int getColumns(String text, int nRows) {
+        if (text.toCharArray().length % (nRows + 1) == 0) {
+            return (text.toCharArray().length / (nRows + 1)) * 2;
+        } else {
+            return (text.toCharArray().length / (nRows + 1)) * 2 + 1;
         }
     }
 }
