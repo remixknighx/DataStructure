@@ -17,15 +17,9 @@ package com.leetcode;
 public class ZigZageSolution {
 
     public static void main(String[] args) {
-        String test = "PAYPA L ISHIR I NGFSD A FDASF D ASF";
-//        char[] testChar = test.toCharArray();
-//
-//        for (int i = 0; i < testChar.length; i++) {
-//            System.out.println(testChar[i]);
-//        }
+        String test = "PAYPAFSFASDLISHIRING";
 
-        System.out.println(1 % 2);
-        System.out.println(new ZigZageSolution().convert(test, 5));
+        System.out.println(new ZigZageSolution().convert(test, 3));
     }
 
     public String convert(String text, int nRows) {
@@ -34,23 +28,28 @@ public class ZigZageSolution {
         Character[][] textMatrix = new Character[nRows][nCols];
         char[] textChar = text.toCharArray();
 
-            for (int k = 0; k < textChar.length; ) {
-                for (int j = 0; j < nCols; j++) {
+        for (int k = 0; k < textChar.length; ) {
+            for (int j = 0; j < nCols; j++) {
+                if (k == textChar.length) {
+                    break;
+                }
+                if (nRows % 2 == 1 && j % 2 != 0) {
+                    textMatrix[nRows / 2][j] = textChar[k++];
+                    continue;
+                }
+                if (nRows % 2 == 0 && j % 2 != 0) {
+                    textMatrix[nRows / 2 - 1][j] = textChar[k++];
+                    textMatrix[nRows / 2][j] = textChar[k++];
+                    continue;
+                }
+                for (int i = 0; i < nRows; i++) {
                     if (k == textChar.length) {
                         break;
                     }
-                    if (nRows % 2 == 1 && j % 2 != 0) {
-                        textMatrix[nRows / 2][j] = textChar[k++];
-                        continue;
-                    }
-                    for (int i = 0; i < nRows; i++) {
-                        if (k == textChar.length) {
-                            break;
-                        }
-                        textMatrix[i][j] = textChar[k++];
-                    }
+                    textMatrix[i][j] = textChar[k++];
                 }
             }
+        }
 
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < nRows; i++) {
