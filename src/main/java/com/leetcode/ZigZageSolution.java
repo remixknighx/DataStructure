@@ -64,11 +64,11 @@ public class ZigZageSolution {
     }
 
     /**
-     * »ñÈ¡¶şÔªÊı×éµÄÁĞÊı
+     * è·å–äºŒå…ƒæ•°ç»„çš„åˆ—æ•°
      *
-     * @param text  ´ı¼ÆËãµÄ×Ö·û´®
-     * @param nRows ¸ø¶¨µÄĞĞÊı
-     * @return ¼ÆËãºóµÄÁĞÊı
+     * @param text  å¾…è®¡ç®—çš„å­—ç¬¦ä¸²
+     * @param nRows ç»™å®šçš„è¡Œæ•°
+     * @return è®¡ç®—åçš„åˆ—æ•°
      */
     private static int getColumns(String text, int nRows) {
         if (text.toCharArray().length % (nRows + 1) == 0) {
