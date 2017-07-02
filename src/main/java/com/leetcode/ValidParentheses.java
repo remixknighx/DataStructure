@@ -13,7 +13,7 @@ import java.util.List;
 public class ValidParentheses {
 
     public static void main(String[] args) {
-        String test = "{fdsf[)dsaf}";
+        String test = "(}[]{}";
 
         System.out.println(new ValidParentheses().isValid(test));
     }
@@ -25,23 +25,25 @@ public class ValidParentheses {
         for (int i = 0; i < s.length(); i ++) {
             char character = s.charAt(i);
             if (brackets.indexOf(character) != -1) {
-                stack.add(character);
+                if (stack.size() == 0) {
+                    stack.addLast(character);
+                } else {
+                    int fist = Bracket.getNum(stack.getLast()) + 1;
+                    int second = Bracket.getNum(character);
+                    if (fist == second && second % 2 ==0) {
+                        stack.removeLast();
+                    } else {
+                        stack.addLast(character);
+                    }
+                }
             }
         }
 
-        if (stack.size() % 2 != 0 || stack.size() == 0) {
+        if (stack.size() == 0) {
+            return true;
+        } else {
             return false;
         }
-
-        for (int j = 0; j < stack.size()/2; j++) {
-            int first = Bracket.getNum(stack.removeFirst()) + 1;
-            int second = Bracket.getNum(stack.removeLast());
-            if (first != second && second % 2 != 0) {
-                return false;
-            }
-        }
-
-        return true;
     }
 
     enum Bracket {
