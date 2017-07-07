@@ -9,11 +9,6 @@ package com.leetcode;
  */
 public class LongestCommonPrefix {
 
-    public static void main(String[] args) {
-        String[] strList = {"abcdefg", "abcdefghijk", "abcdefghijk", "abcdef"};
-        System.out.println(new LongestCommonPrefix().longestCommonPrefix(strList));
-    }
-
     public String longestCommonPrefix(String[] strs) {
         int len = strs.length;
 

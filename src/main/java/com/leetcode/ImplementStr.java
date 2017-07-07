@@ -9,12 +9,6 @@ package com.leetcode;
  */
 public class ImplementStr {
 
-    public static void main(String[] args) {
-        String haystack = "mississippi" ;
-        String needle = "pi";
-        System.out.println(new ImplementStr().strStr(haystack, needle));
-    }
-
     public int strStr(String haystack, String needle) {
         int needleLength = needle.length();
 
