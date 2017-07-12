@@ -34,16 +34,11 @@ public class SameTreeTest {
 
         assertTrue(sameTree.isSameTree(tree1, tree2));
 
-        TreeNode tree3 = new TreeNode(1);
-        tree3.left = new TreeNode(2);
-        tree3.right = new TreeNode(3);
-        tree3.right.left = new TreeNode(4);
-        tree3.right.right = new TreeNode(4);
+        TreeNode tree3 = new TreeNode(12);
+        tree3.right = new TreeNode(-60);
 
-        TreeNode tree4 = new TreeNode(1);
-        tree4.left = new TreeNode(2);
-        tree4.right = new TreeNode(2);
-        tree4.right.left = new TreeNode(4);
+        TreeNode tree4 = new TreeNode(12);
+        tree4.right = new TreeNode(72);
 
         assertFalse(sameTree.isSameTree(tree3, tree4));
     }
