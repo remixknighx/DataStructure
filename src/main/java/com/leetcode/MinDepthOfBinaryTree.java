@@ -9,16 +9,6 @@ package com.leetcode;
  */
 public class MinDepthOfBinaryTree {
 
-    public static void main(String[] args) {
-        TreeNode tree1 = new TreeNode(1);
-        tree1.left = new TreeNode(2);
-        tree1.left.left = new TreeNode(3);
-        tree1.left.left.left = new TreeNode(3);
-        tree1.right = new TreeNode(2);
-
-        System.out.println(new MinDepthOfBinaryTree().minDepth(tree1));
-    }
-
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
