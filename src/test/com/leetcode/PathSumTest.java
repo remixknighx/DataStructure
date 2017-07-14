@@ -20,6 +20,16 @@ public class PathSumTest {
 
     @Test
     public void testHasPathSum() throws Exception {
+        /**
+         * 树形结构
+         *           5
+         *          / \
+         *         4   8
+         *        /   / \
+         *      11   13  4
+         *     / \        \
+         *    7   2        1
+         */
         TreeNode tree = new TreeNode(5);
         tree.left = new TreeNode(4);
         tree.left.left = new TreeNode(11);
@@ -33,6 +43,19 @@ public class PathSumTest {
         assertTrue(pathSum.hasPathSum(tree, 22));
         assertTrue(pathSum.hasPathSum(tree, 26));
         assertFalse(pathSum.hasPathSum(tree, 38));
+
+        /**
+         * 树形结构
+         *        1
+         *       /
+         *      2
+         */
+        TreeNode tree2 = new TreeNode(1);
+        tree2.left = new TreeNode(2);
+        assertFalse(pathSum.hasPathSum(tree2, 1));
+
+        TreeNode tree3 = new TreeNode(1);
+        assertFalse(pathSum.hasPathSum(tree3, 0));
     }
 
 }
