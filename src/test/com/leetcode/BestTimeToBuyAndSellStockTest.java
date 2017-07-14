@@ -25,6 +25,9 @@ public class BestTimeToBuyAndSellStockTest {
 
         int[] nums2 = {7, 6, 4, 3, 1};
         assertEquals(0, test.maxProfit(nums2));
+
+        int[] nums3 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        assertEquals(8, test.maxProfit(nums3));
     }
 
 }

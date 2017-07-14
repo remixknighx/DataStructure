@@ -9,18 +9,20 @@ package com.leetcode;
  */
 public class BestTimeToBuyAndSellStock {
 
-    public static void main(String[] args) {
-        int[] nums1 = {7, 1, 5, 3, 6, 4};
-        System.out.println(new BestTimeToBuyAndSellStock().maxProfit(nums1));
-    }
-
     public int maxProfit(int[] prices) {
-        int buy;
-        int sell;
-        int max;
+        if (prices == null || prices.length == 0) {
+            return 0;
+        }
 
+        int min = Integer.MAX_VALUE;
+        int profit = 0;
+        for (int i : prices) {
+            min = i < min ? i : min;
+            profit = (i - min) > profit ? i - min : profit;
+        }
 
-        return 0;
+        return profit;
+
     }
 
 }
