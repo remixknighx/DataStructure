@@ -12,12 +12,6 @@ import java.util.List;
  */
 public class ValidParentheses {
 
-    public static void main(String[] args) {
-        String test = "(}[]{}";
-
-        System.out.println(new ValidParentheses().isValid(test));
-    }
-
     public boolean isValid(String s) {
         String brackets = "(){}[]";
         LinkedList<Character> stack = new LinkedList<Character>();
