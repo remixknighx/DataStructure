@@ -17,9 +17,9 @@ package com.leetcode;
 public class ZigZageSolution {
 
     public static void main(String[] args) {
-        String test = "PAYPAFSFASDLISHIRING";
+        String test = "ABC";
 
-        System.out.println(new ZigZageSolution().convert(test, 3));
+        System.out.println(new ZigZageSolution().convert(test, 2));
     }
 
     public String convert(String text, int nRows) {
