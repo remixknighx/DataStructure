@@ -19,24 +19,26 @@ public class RotateArray {
     }
 
     public void rotate(int[] nums, int k) {
-        if(nums.length == 0 || nums.length < k) {
-            return;
+        // TODO 没读懂题目的意思
+        k = (nums.length + (k % nums.length)) % nums.length; // 保证k为正
+
+        int tmp;
+        for (int i = 0, j = nums.length - 1; i < j; i++, j--) {
+            tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
         }
 
-        int[] temp = new int[k];
-        int length = nums.length;
-        int[] newNums = new int[length];
-
-        for (int i = 0; i < k; i++) {
-            temp[i] = nums[length - k + i];
+        for (int i = 0, j = k - 1; i < j; i++, j--) {
+            tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
         }
 
-        for (int i = 0; i < k; i++) {
-            newNums[i] = temp[i];
-        }
-
-        for (int i = 0; i < length - k; i++) {
-            newNums[i+k] = nums[i];
+        for (int i = k, j = nums.length - 1; i < j; i++, j--) {
+            tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
         }
     }
 }
