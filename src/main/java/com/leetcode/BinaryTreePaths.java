@@ -39,6 +39,7 @@ public class BinaryTreePaths {
             return paths;
         }
 
+        // 采用后序遍历的方式
         List<String> leftPaths = binaryTreePaths(root.left);
         List<String> rightPaths = binaryTreePaths(root.right);
 
