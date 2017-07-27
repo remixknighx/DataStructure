@@ -5,22 +5,79 @@ package com.bill.sort;
  */
 public class Sort {
 
+    public static void main(String[] args) {
+        Integer[] array = {34,8,64,67,15,234,51,3,32,21};
+        quickSort(array);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+
+    /* Ã°ÅİÅÅĞò start */
+    /**
+     * Ã°ÅİÅÅĞòËã·¨
+     *
+     * @param array ´ıÅÅĞòµÄÊı×é
+     */
+    public static <T extends Comparable<? super T>> void bubbleSort(T[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = array.length - 1; j > i; j--) {
+                if (array[j].compareTo(array[j-1]) < 0) {
+                    T temp = array[j];
+                    array[j] = array[j-1];
+                    array[j-1] = temp;
+                }
+            }
+        }
+    }
+    /* Ã°ÅİÅÅĞò end */
+
+    /* Ñ¡ÔñÅÅĞò start */
+    /**
+     * Ñ¡ÔñÅÅĞò
+     *
+     * @param array ´ıÅÅĞòµÄÊı×é
+     */
+    public static <T extends Comparable<? super T>> void selectSort(T[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j].compareTo(array[minIndex]) < 0) {
+                    minIndex = j;
+                }
+            }
+
+            if (minIndex != i) {
+                T temp = array[minIndex];
+                array[minIndex] = array[i];
+                array[i] = temp;
+            }
+
+        }
+    }
+    /* Ñ¡ÔñÅÅĞò end */
+
+    /* ²åÈëÅÅĞò start */
     /**
      * ²åÈëÅÅĞòËã·¨µÄÊµÏÖ
      *
      * @param array ´ıÅÅĞòµÄÊı×é
      * */
-    public static <T extends Comparable<? super T>> void insertionSort(T[] array){
+    public static <T extends Comparable<? super T>> void insertSort(T[] array){
         for (int i = 1; i < array.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if(array[i].compareTo(array[j]) < 0){
-                    T tmp = array[j];
-                    array[j] = array[i];
-                    array[i] = tmp;
+            for (int j = i; j > 0; j--) {
+                if (array[j].compareTo(array[j-1]) < 0) {
+                    T temp = array[j];
+                    array[j] = array[j-1];
+                    array[j-1] = temp;
+                } else {
+                    break;
                 }
             }
         }
     }
+    /* ²åÈëÅÅĞò end */
 
     /**
      * Ï£¶ûÅÅĞòËã·¨µÄÊµÏÖ
@@ -91,6 +148,10 @@ public class Sort {
      * @param b
      * */
     private static <T extends Comparable<? super T>> void swapReferences(T[] array, int a, int b){
+        if (a == b) {
+            return;
+        }
+
         T tmp = array[a];
         array[a] = array[b];
         array[b] = tmp;
@@ -167,6 +228,7 @@ public class Sort {
     /* ¹é²¢ÅÅĞò ends */
 
     /* ¿ìËÙÅÅĞò starts */
+
     /**
      * ¿ìËÙÅÅĞòËã·¨
      * */
@@ -207,6 +269,7 @@ public class Sort {
      * */
     private static <T extends Comparable<? super T>> T median3(T[] array, int left, int right){
         int center = (left+right) / 2;
+
         if(array[center].compareTo(array[left]) < 0){
             swapReferences(array, left, center);
         }
@@ -222,14 +285,4 @@ public class Sort {
         return array[right-1];
     }
     /* ¿ìËÙÅÅĞò ends */
-
-
-    public static void main(String[] args) {
-        Integer[] array = {34,8,64,67,15,234,51,3,32,21};
-        quickSort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
-    }
-
 }
