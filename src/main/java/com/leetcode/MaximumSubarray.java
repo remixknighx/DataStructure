@@ -10,13 +10,23 @@ package com.leetcode;
 public class MaximumSubarray {
 
     public static void main(String[] args) {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] nums = {-2, -3, -4, -1, -2, -1, -5};
         System.out.println(new MaximumSubarray().maxSubArray(nums));
     }
 
     public int maxSubArray(int[] nums) {
-        //TODO 查找子数列中的最大值，数据结构一书中有涉及
-        return 0;
+        if (nums == null || nums.length == 0){
+            return 0;
+        }
+
+        int max = Integer.MIN_VALUE, sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            max = Math.max(max, sum);
+            sum = Math.max(sum, 0);
+        }
+
+        return max;
     }
 
 }
