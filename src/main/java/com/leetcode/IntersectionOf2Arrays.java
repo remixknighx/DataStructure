@@ -1,8 +1,6 @@
 package com.leetcode;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * 349. Intersection of Two Arrays
@@ -14,8 +12,8 @@ import java.util.List;
 public class IntersectionOf2Arrays {
 
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 2, 1};
-        int[] nums2 = {2, 2};
+        int[] nums1 = {1, 2};
+        int[] nums2 = {2, 1};
         IntersectionOf2Arrays intersectionOf2Arrays = new IntersectionOf2Arrays();
 
         int[] intersection = intersectionOf2Arrays.intersection(nums1, nums2);
@@ -30,22 +28,23 @@ public class IntersectionOf2Arrays {
             return new int[0];
         }
 
-        int length = nums1.length > nums2.length? nums2.length: nums1.length;
-        List<Integer> integerList = new LinkedList<Integer>();
+        Set<Integer> intersectionSet = new HashSet<Integer>();
 
-        for (int i = 0; i < length; i++) {
-            if (nums1[i] == nums2[i] && !integerList.contains(nums1)) {
-                integerList.add(nums1[i]);
+        for (int i = 0; i < nums1.length; i++) {
+            intersectionSet.add(nums1[i]);
+        }
+
+        Set<Integer> resultSet = new HashSet<Integer>();
+        for (int j = 0; j < nums2.length; j++) {
+            if (intersectionSet.contains(nums2[j])) {
+                resultSet.add(nums2[j]);
             }
         }
 
-        if (integerList.size() == 0) {
-            return null;
-        }
-
-        int[] result = new int[integerList.size()];
-        for (int j = 0; j < integerList.size(); j++) {
-            result[j] = integerList.get(j);
+        int[] result = new int[resultSet.size()];
+        int k = 0;
+        for(int num: resultSet) {
+            result[k++] = num;
         }
 
         return result;
