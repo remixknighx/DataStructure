@@ -3,12 +3,6 @@ package com.leetcode;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static javafx.scene.input.KeyCode.T;
-import static org.junit.Assert.*;
-
 /**
  * @author wangjf
  * @date 2017/7/13.
