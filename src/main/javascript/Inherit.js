@@ -10,10 +10,10 @@ function Range(from, to) {
     this.to = to;
 }
 
-var RangePrototype  = {
+var RangePrototype = {
     // 显示设置构造函数反向引用
     constructor: Range,
-    includes: function(x){
+    includes: function (x) {
         return this.from < x && this.to >= x;
     }
 };
@@ -32,7 +32,7 @@ let range = new Range(3, 8);
 /**
  * 方法二：javascript实现java式的继承
  * */
-function Son(name){
+function Son(name) {
     // 实例字段
     this.name = name;
     // 实例方法
@@ -40,6 +40,7 @@ function Son(name){
         console.log(name + " says hello");
     }
 }
+
 // 类字段
 Son.prototype.FATHER = "Paul";
 // 类方法
@@ -55,25 +56,26 @@ let bill = new Son("bill");
  * 方法三：定义子类，使用extends关键字实现继承
  */
 class SuperClass {
-    constructor(name){
+    constructor(name) {
         this.name = name;
     }
 
-    printSuperClass(){
+    printSuperClass() {
         console.log(this.name + " Super Class!");
     }
 }
 
-class SubClass extends SuperClass{
-    constructor(name){
+class SubClass extends SuperClass {
+    constructor(name) {
         super(name);
         this.name = name;
     }
 
-    printSubClass(){
+    printSubClass() {
         console.log(this.name + " Sub Class!");
     }
 }
+
 let subClass = new SubClass("wang");
 subClass.printSuperClass()
 subClass.printSubClass();
@@ -103,7 +105,7 @@ subClass.printSubClass();
 function Shape() {
     this.x = 0;
     this.y = 0;
-    this.move = function(x, y) {
+    this.move = function (x, y) {
         this.x += x;
         this.y += y;
         console.info('Shape moved.');
@@ -121,8 +123,6 @@ Rectangle.prototype = Object.create(Shape.prototype);
 Rectangle.prototype.constructor = Rectangle;
 
 var rect = new Rectangle();
-
-rect.rectangleShape;
 console.log('Is rect an instance of Rectangle?',
     rect instanceof Rectangle); // true
 console.log('Is rect an instance of Shape?',
