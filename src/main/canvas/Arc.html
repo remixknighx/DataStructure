@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arc Exercise</title>
+
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+
+    <canvas id="arcTest" width="1000px" height="500px" ></canvas>
+
+</body>
+
+<script>
+    // 用于将角度从角度制转化成弧度制
+    function rads(x) {
+        return (Math.PI * x) / 180;
+    }
+
+    var canvas = $("#arcTest").get(0);
+    var c = canvas.getContext("2d");
+
+    // 1. 绘制一个圆，圆心位于(75, 100)，半径为50
+    // false表示顺时针
+    c.beginPath();
+    c.arc(75, 100, 50, 0, rads(360), false);
+
+    // 2. 绘制一个楔，从-60度开始一直到0度
+    c.moveTo(200, 100);
+    c.arc(200, 100, 50, rads(-60), rads(0), false);
+    c.closePath();
+
+    // 3. 同样的楔，但方向不同
+    c.moveTo(325, 100);
+    c.arc(325, 100, 50, rads(-60), rads(0), true);
+    c.closePath();
+
+    // 4. 绘制带有圆角的正方形
+    c.moveTo(450, 50);
+    c.arcTo(500, 50, 500, 150, 30);
+    c.arcTo(500, 150, 400, 150, 20);
+    c.arcTo(400, 150, 400, 50, 10);
+    c.arcTo(400, 50, 500, 50, 0);
+    c.closePath();
+
+    // 5. 二次贝塞尔曲线：一个控制点
+    c.moveTo(75, 250);
+    c.quadraticCurveTo(100, 200, 175, 250);
+    c.fillRect(100-3, 200-3, 6, 6);
+
+    // 6. 三次贝塞尔曲线
+    c.moveTo(200, 250);
+    c.bezierCurveTo(220, 220, 280, 280, 300, 250);
+    c.fillRect(220-3, 220-3, 6, 6);
+    c.fillRect(280-3, 280-3, 6, 6);
+
+    // 定义一些图形属性并绘制曲线
+    c.fillStyle = "#aaa";
+    c.lineWidth = 5;
+    c.fill();
+    c.stroke();
+</script>
+
+</html>
