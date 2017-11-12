@@ -119,6 +119,10 @@ function Rectangle() {
 }
 
 // subclass extends superclass
+/**
+ * Object.create()方法创建一个新对象。
+ * 第一个参数是这个对象的原型，第二个参数对对象的属性进行进一步的描述
+ */
 Rectangle.prototype = Object.create(Shape.prototype);
 Rectangle.prototype.constructor = Rectangle;
 
@@ -129,5 +133,26 @@ console.log('Is rect an instance of Shape?',
     rect instanceof Shape); // true
 // Outputs, 'Shape moved.
 rect.move(1, 1);
+
+/**
+ * 通过原型继承创建一个新对象
+ * inherit()返回了一个继承自原型对象p的属性的新对象
+ *
+ */
+function inherit(p) {
+    if(p == null) throw TypeError();
+    if(Object.create) {
+        return Object.create(p);
+    }
+
+    var t = typeof p;
+    if(t !== "object" && t !== "function") {
+        throw TypeError();
+    }
+
+    function f() {}
+    f.prototype = p;
+    return new f();
+}
 
 
