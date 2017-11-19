@@ -1,10 +1,14 @@
 package com.file;
 
-import org.apache.commons.lang3.time.StopWatch;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.filefilter.NameFileFilter;
 
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.util.Arrays;
+import java.util.regex.Pattern;
 
 /**
  * @author wangjf
@@ -13,13 +17,34 @@ import java.nio.channels.FileChannel;
 public class FileUtil {
 
     public static void main(String[] args) throws IOException {
-        StopWatch timeClock = new StopWatch();
+        File dir = new File(".");
+        String[] files = dir.list(new NameFileFilter("pom.xml"));
+//        String[] files = dir.list();
+        for (int i = 0; i < files.length; i++) {
+            System.out.println(files[i]);
+        }
+    }
 
-        timeClock.start();
-        FileUtil.copyFileByChannel("E:\\movie\\Need.for.Speed.2014.720p.BluRay.x264.DTS-WiKi.mkv", "E:\\test.mp4");
-        timeClock.stop();
+    /**
+     * 通过正则表达式对文件名进行过滤
+     *
+     * @param filePath 文件路径
+     * @param regex 正则表达式
+     *
+     * @return
+     */
+    public static String[] filterFileByFilename(String regex, String filePath){
+        File path = new File(filePath);
+        String[] list = path.list(new FilenameFilter() {
+            private Pattern pattern = Pattern.compile("");
+            public boolean accept(File dir, String name) {
+                return pattern.matcher(name).matches();
+            }
+        });
 
-        System.out.println("总用时>>>>>>: " + timeClock.getTime());
+        Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
+
+        return list;
     }
 
     /**
