@@ -7,3 +7,6 @@
 
 ## css代码校验网站
 - http://jigsaw.w3.org/css-validator/
+
+## javascript的console调试命令
+- http://www.codeceo.com/article/9-console-command.html
