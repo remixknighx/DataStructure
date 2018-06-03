@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/rhino/js/1.6R7/js-1.6R7.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/rhino/js/1.6R7/js-1.6R7-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/rhino/js/1.6R7/js-1.6R7-sources.jar!/" />
     </SOURCES>

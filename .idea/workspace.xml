@@ -6,9 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1246ed7-5a71-4abb-9111-8b377fd8657c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/freemarker.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
@@ -18,7 +15,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_beta_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_beta_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bcel_bcel_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bcel_bcel_6_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bsf_bsf_api_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bsf_bsf_api_3_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bsf_bsf_engines_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bsf_bsf_engines_3_1.xml" />
@@ -27,7 +23,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_api_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_api_1_2_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_impl_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_impl_1_2_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__rhino_js_1_6R7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__rhino_js_1_6R7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" />
@@ -35,7 +30,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlbeans_xbean_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlbeans_xbean_2_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure.iml" afterPath="$PROJECT_DIR$/DataStructure.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,58 +54,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NodeProject.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/plan/NodeProject.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataStructure.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure.iml">
+      <file leaf-file-name="ConstructRectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/ConstructRectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Maven__org_hamcrest_hamcrest_core_1_3.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml">
+      <file leaf-file-name="NextGreaterElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NextGreaterElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="182">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="47" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maven__junit_junit_4_12.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="450">
-                <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,6 +84,7 @@
         <option value="HTML File" />
         <option value="HTML4 File" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -138,9 +97,17 @@
       <find>fdsa</find>
       <find>queue</find>
       <find>queue.wait</find>
+      <find>UseParallelGc</find>
+      <find>MaxGCp</find>
+      <find>GCTimew</find>
+      <find>UseAdapti</find>
+      <find>UseCMSc</find>
+      <find>UseParNewGC</find>
+      <find>年带</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>年代</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -154,53 +121,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/BinaryWatch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/SumOfLeftLeaves.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/ConvertNumToHex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/LongestPalindromeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/leetcode/BinaryTreeLevelOrderTraversalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/leetcode/LongestPalindromeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/AddStrings.java" />
-        <option value="$PROJECT_DIR$/src/test/com/leetcode/ThirdMaxNumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/ThirdMaxNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/NumOfSegments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/PathSum3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/AbcTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/FindAnagramInString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/ArrangingCoins.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/StringCompression.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/NumOfBoomerangs.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/localStorage.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/CookieStorage.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/test.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/CallAndApply.js" />
-        <option value="$PROJECT_DIR$/src/main/canvas/CanvasExercise.html" />
-        <option value="$PROJECT_DIR$/src/main/canvas/Canvas.html" />
-        <option value="$PROJECT_DIR$/src/main/canvas/Snow.html" />
-        <option value="$PROJECT_DIR$/src/main/canvas/Arc.html" />
-        <option value="$PROJECT_DIR$/src/main/canvas/Rectangle.html" />
-        <option value="$PROJECT_DIR$/src/main/javascript/AnonymousFunction.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/ArrowFunction.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Inherit.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Test.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/AttributeUtil.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Typeof.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/ArrayMethods.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/Closure.js" />
-        <option value="$PROJECT_DIR$/src/main/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tools/ConsoleUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/file/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/file/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/com/Test.html" />
-        <option value="$PROJECT_DIR$/src/main/javascript/PromiseTest.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tools/TimerTest.java" />
+        <option value="$PROJECT_DIR$/src/reference/jvm虚拟机参数设置.md" />
+        <option value="$PROJECT_DIR$/src/reference/性能检测工具.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/singleton/SimpleSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/singleton/StaticSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/IDBQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DBQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DBQueryProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/QueryClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/flyweight/IReportManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/flyweight/FinancialReportManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/flyweight/ReportManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/flyweight/FlyWeightClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/IPacketCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/PacketBodyCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/PacketDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/PacketHTMLHeaderCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/PacketHTPPHeaderCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/PacketHTTPHeaderCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/decorator/DecoratorClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/observe/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/observe/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/observe/ObserveClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/observe/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacadeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/BookFacadeCglib.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/plan/NodeProject.md" />
-        <option value="$PROJECT_DIR$/DataStructure.iml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/BookFacadeCglibProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/TestCglib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/NumOfBoomerangs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/FindDisappearedNums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/MinMoves.java" />
+        <option value="$PROJECT_DIR$/src/reference/如何解决跨域问题.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/AssignCookies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/PoorPigs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/RepeatedSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/HammingDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/Heater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/IslandPerimeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/NumberComplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/LargestPalindromeProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/LicenseKeyFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/FindMaxConsecOnes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/ConstructRectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/NextGreaterElement.java" />
       </list>
     </option>
   </component>
@@ -288,7 +259,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
@@ -297,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -306,6 +279,204 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: cglib:cglib:3.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib-3.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cglib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DataStructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,7 +491,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,24 +505,96 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="reference" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -373,6 +616,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.leetcode" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.designpattern.singleton" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -392,15 +638,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="TimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.NextGreaterElement">
+    <configuration default="false" name="LargestPalindromeProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tools.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tools.TimerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LargestPalindromeProduct" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -413,16 +659,84 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ArrayMethods.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ArrayMethods.js" working-dir="$PROJECT_DIR$/src/main/javascript">
+    <configuration default="false" name="LicenseKeyFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LicenseKeyFormat" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructure" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Closure.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Closure.js" working-dir="$PROJECT_DIR$/src/main/javascript">
+    <configuration default="false" name="FindMaxConsecOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.FindMaxConsecOnes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructure" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DataStructure/src/main/html/index.html">
+    <configuration default="false" name="ConstructRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ConstructRectangle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructure" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="false" name="PromiseTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="PromiseTest.js" working-dir="$PROJECT_DIR$/src/main/javascript">
+    <configuration default="false" name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.NextGreaterElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructure" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -831,18 +1145,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TimerTest" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.ArrayMethods.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Closure.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.PromiseTest.js" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LargestPalindromeProduct" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LicenseKeyFormat" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FindMaxConsecOnes" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConstructRectangle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NextGreaterElement" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.PromiseTest.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Closure.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.ArrayMethods.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.NextGreaterElement" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConstructRectangle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FindMaxConsecOnes" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LicenseKeyFormat" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LargestPalindromeProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -897,6 +1212,27 @@
       <workItem from="1514119110580" duration="5080000" />
       <workItem from="1514711936685" duration="462000" />
       <workItem from="1514809192211" duration="371000" />
+      <workItem from="1514814414202" duration="458000" />
+      <workItem from="1515310827947" duration="217000" />
+      <workItem from="1516450980743" duration="6225000" />
+      <workItem from="1516528431819" duration="7835000" />
+      <workItem from="1517029131792" duration="18000" />
+      <workItem from="1517053873166" duration="4023000" />
+      <workItem from="1517141281294" duration="5718000" />
+      <workItem from="1517731398223" duration="75000" />
+      <workItem from="1517731525453" duration="217000" />
+      <workItem from="1517731783790" duration="229000" />
+      <workItem from="1517732047274" duration="2095000" />
+      <workItem from="1517737846435" duration="2581000" />
+      <workItem from="1517743184052" duration="481000" />
+      <workItem from="1517743819085" duration="656000" />
+      <workItem from="1518788699278" duration="4042000" />
+      <workItem from="1520068319423" duration="3188000" />
+      <workItem from="1521270193652" duration="1292000" />
+      <workItem from="1521977906053" duration="8574000" />
+      <workItem from="1522569400765" duration="8760000" />
+      <workItem from="1523003474352" duration="8872000" />
+      <workItem from="1525088314985" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="提交代码。">
       <created>1503471865810</created>
@@ -947,26 +1283,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108065000" />
+    <option name="totallyTimeSpent" value="179770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="833" y="0" width="854" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750583" sideWeight="0.4852941" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32273263" sideWeight="0.443038" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3203769" sideWeight="0.47671568" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979977" sideWeight="0.3556962" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5936709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33294392" sideWeight="0.4877451" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31934732" sideWeight="0.5232843" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.6443038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19113924" sideWeight="0.49380532" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5265823" sideWeight="0.49380532" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3721519" sideWeight="0.5061947" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32485548" sideWeight="0.61097705" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31919906" sideWeight="0.73417723" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -988,406 +1327,456 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/designpattern/decorator/DecoratorClient.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/designpattern/observe/BinaryObserver.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/FindDisappearedNums.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/HammingDistance.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/Heater.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LicenseKeyFormat.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ConstructRectangle.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
         <watch expression="chars[i]" language="JavaScript" />
       </configuration>
+      <configuration name="Application">
+        <watch expression="S.indexOf(&quot;-&quot;)" language="JAVA" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/tuple/Triple.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/tuple/Pair.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/tuple/MutableTriple.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/time/DateUtils.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/time/DatePrinter.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/org/apache/commons/io/IOUtils.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-src/src/main/java/org/apache/commons/lang3/text/WordUtils.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/org/apache/commons/io/output/ByteArrayOutputStream.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/org/apache/commons/io/input/ProxyReader.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/org/apache/commons/beanutils/BeanUtils.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/converters/ByteArrayConverter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/BeanUtils.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/expression/DefaultResolver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/converters/DateConverter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/converters/DateTimeConverter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/org/apache/commons/collections/FactoryUtils.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/org/apache/commons/collections/FactoryUtils.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0.jar!/org/apache/bcel/Const.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0-sources.jar!/org/apache/bcel/Const.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0-sources.jar!/org/apache/bcel/ExceptionConst.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0-sources.jar!/org/apache/bcel/Repository.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0-sources.jar!/org/apache/bcel/generic/IF_ICMPLE.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bcel/bcel/6.0/bcel-6.0-sources.jar!/org/apache/bcel/util/BCELFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2.jar!/org/apache/commons/chain/Command.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/Command.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/web/faces/FacesWebContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/impl/CatalogBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/file/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/file/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/Test.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/Closure.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/Observer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/localStorage.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/InvalidationListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="113">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/CookieStorage.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/PromiseTest.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/ArrowFunction.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/observe/OctalObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/AnonymousFunction.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/CallAndApply.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="80" column="9" lean-forward="false" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="553" column="29" lean-forward="false" selection-start-line="553" selection-start-column="20" selection-end-line="553" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/observe/BinaryObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="40" selection-end-column="21" />
-          <folding />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/bsf/bsf-utils/3.1/bsf-utils-3.1.pom" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/observe/ObserveClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/observe/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="157" column="16" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DBQueryProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DynamicProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/QueryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/DBQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/TestProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/BookFacadeCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://MAVEN/BillExercise:DataStructure:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID />
+          <ID>MAVEN</ID>
           <OriginalElement>BillExercise:DataStructure:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="0.0" y="338.67688792688784">BillExercise:DataStructure:1.0-SNAPSHOT</node>
-            <node x="256.5" y="0.0">junit:junit:jar:4.12</node>
-            <node x="475.0" y="0.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="217.0" y="72.0">org.apache.commons:commons-lang3:jar:3.4</node>
-            <node x="229.5" y="338.67688792688784">commons-io:commons-io:jar:1.3.2</node>
-            <node x="205.0" y="144.0">commons-beanutils:commons-beanutils:jar:1.9.3</node>
-            <node x="460.5" y="174.73323713323714">commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
-            <node x="451.0" y="102.73323713323714">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="258.0" y="609.9268879268878">org.apache.bcel:bcel:jar:6.0</node>
-            <node x="245.0" y="537.9268879268878">org.apache.bsf:bsf-utils:jar:3.1</node>
-            <node x="499.5" y="318.73323713323714">org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-api:jar:3.1</node>
-            <node x="483.5" y="390.73323713323714">org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-engines:jar:3.1</node>
-            <node x="735.5" y="425.23323713323714">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2</node>
-            <node x="992.0" y="516.6768879268878">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4</node>
-            <node x="1183.5" y="516.6768879268878">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
-            <node x="944.0" y="300.67688792688784">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="988.5" y="372.67688792688784">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9</node>
-            <node x="1181.0" y="372.67688792688784">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9/xerces:xercesImpl:jar:2.6.2</node>
-            <node x="978.0" y="444.67688792688784">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/xml-apis:xml-apis:jar:1.3.03</node>
-            <node x="484.5" y="537.9268879268878">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2</node>
-            <node x="707.0" y="551.1768879268878">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2/commons-logging:commons-logging:jar:1.2</node>
-            <node x="980.0" y="643.6768879268878">org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1</node>
-            <node x="743.0" y="714.1768879268878">org.apache.bsf:bsf-utils:jar:3.1/org.codehaus.woodstox:wstx-asl:jar:3.2.0</node>
-            <node x="518.0" y="615.6768879268878">org.apache.bsf:bsf-utils:jar:3.1/rhino:js:jar:1.6R7</node>
-            <node x="502.5" y="687.6768879268878">org.apache.bsf:bsf-utils:jar:3.1/xmlbeans:xbean:jar:2.2.0</node>
-            <node x="488.0" y="246.7332371332371">org.apache.bsf:bsf-utils:jar:3.1/javax.servlet:servlet-api:jar:2.4</node>
-            <node x="217.5" y="681.9268879268878">commons-chain:commons-chain:jar:1.2</node>
+            <node x="" y="">BillExercise:DataStructure:1.0-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="" y="">commons-io:commons-io:jar:1.3.2</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.apache.bcel:bcel:jar:6.0</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-api:jar:3.1</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-engines:jar:3.1</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9/xerces:xercesImpl:jar:2.6.2</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/xml-apis:xml-apis:jar:1.3.03</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/org.codehaus.woodstox:wstx-asl:jar:3.2.0</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/rhino:js:jar:1.6R7</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/xmlbeans:xbean:jar:2.2.0</node>
+            <node x="" y="">org.apache.bsf:bsf-utils:jar:3.1/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">commons-chain:commons-chain:jar:1.2</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="commons-chain:commons-chain:jar:1.2">
-              <point x="62.5" y="13.714285714285722" />
-              <point x="205.0" y="697.9268879268878" />
-              <point x="-70.5" y="-0.0" />
-            </edge>
-            <edge source="commons-beanutils:commons-beanutils:jar:1.9.3" target="commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2">
-              <point x="83.0" y="8.0" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="31.5" y="-0.0" />
-              <point x="-64.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/org.codehaus.woodstox:wstx-asl:jar:3.2.0">
-              <point x="43.0" y="14.222222222222172" />
-              <point x="371.0" y="568.14911014911" />
-              <point x="451.0" y="730.1768879268878" />
-              <point x="-42.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1">
-              <point x="43.0" y="3.555555555555543" />
-              <point x="371.0" y="557.4824434824434" />
-              <point x="451.0" y="605.1768879268878" />
-              <point x="864.0" y="605.1768879268878" />
-              <point x="944.0" y="663.6768879268878" />
-              <point x="-42.5" y="4.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.codehaus.woodstox:wstx-asl:jar:3.2.0" target="org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1">
-              <point x="42.5" y="-0.0" />
-              <point x="864.0" y="730.1768879268878" />
-              <point x="944.0" y="671.6768879268878" />
-              <point x="-42.5" y="12.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1">
-              <point x="50.0" y="12.800000000000011" />
-              <point x="864.0" y="454.0332371332371" />
-              <point x="944.0" y="647.6768879268878" />
-              <point x="-42.5" y="-12.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/javax.servlet:servlet-api:jar:2.4">
-              <point x="43.0" y="-14.222222222222172" />
-              <point x="371.0" y="539.7046657046657" />
-              <point x="451.0" y="262.73323713323714" />
-              <point x="-51.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/rhino:js:jar:1.6R7">
-              <point x="43.0" y="7.111111111111086" />
-              <point x="371.0" y="561.0379990379989" />
-              <point x="451.0" y="631.6768879268878" />
-              <point x="-21.0" y="-0.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="org.apache.bcel:bcel:jar:6.0">
-              <point x="62.5" y="9.142857142857167" />
-              <point x="205.0" y="625.9268879268878" />
-              <point x="-30.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2">
-              <point x="54.5" y="-12.0" />
-              <point x="627.0" y="541.9268879268878" />
-              <point x="707.0" y="449.23323713323714" />
-              <point x="-50.0" y="8.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/xmlbeans:xbean:jar:2.2.0">
-              <point x="43.0" y="10.666666666666629" />
-              <point x="371.0" y="564.5935545935545" />
-              <point x="451.0" y="703.6768879268878" />
-              <point x="-36.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/commons-logging:commons-logging:jar:1.0.4">
-              <point x="50.0" y="-12.800000000000011" />
-              <point x="864.0" y="428.43323713323707" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/stax:stax-api:jar:1.0.1">
-              <point x="54.5" y="12.0" />
-              <point x="627.0" y="565.9268879268878" />
-              <point x="707.0" y="597.1768879268878" />
-              <point x="864.0" y="597.1768879268878" />
-              <point x="944.0" y="655.6768879268878" />
-              <point x="-42.5" y="-4.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
-              <point x="62.5" y="-13.714285714285722" />
-              <point x="205.0" y="16.0" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4">
-              <point x="50.0" y="6.399999999999977" />
-              <point x="864.0" y="447.6332371332371" />
-              <point x="944.0" y="524.6768879268878" />
-              <point x="-30.5" y="-8.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.4">
-              <point x="62.5" y="-9.142857142857167" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9">
-              <point x="50.0" y="-6.399999999999977" />
-              <point x="864.0" y="434.83323713323716" />
-              <point x="944.0" y="388.67688792688784" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="commons-io:commons-io:jar:1.3.2">
-              <point x="62.5" y="-0.0" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4">
-              <point x="54.5" y="-4.0" />
-              <point x="627.0" y="549.9268879268878" />
-              <point x="707.0" y="540.6768879268878" />
-              <point x="-30.5" y="8.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-engines:jar:3.1">
-              <point x="43.0" y="-7.111111111111086" />
-              <point x="371.0" y="546.8157768157768" />
-              <point x="451.0" y="406.73323713323714" />
-              <point x="-55.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2">
-              <point x="43.0" y="-3.555555555555543" />
-              <point x="371.0" y="550.3713323713323" />
-              <point x="451.0" y="433.23323713323714" />
-              <point x="-50.0" y="-8.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.bsf:bsf-api:jar:3.1">
-              <point x="43.0" y="-10.666666666666629" />
-              <point x="371.0" y="543.2602212602212" />
-              <point x="451.0" y="334.73323713323714" />
-              <point x="-39.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/jaxen:jaxen:jar:1.1-beta-9/xerces:xercesImpl:jar:2.6.2">
-              <point x="34.0" y="-0.0" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2/commons-logging:commons-logging:jar:1.2">
-              <point x="54.5" y="4.0" />
-              <point x="627.0" y="557.9268879268878" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="org.apache.bsf:bsf-utils:jar:3.1">
-              <point x="62.5" y="4.571428571428555" />
-              <point x="205.0" y="553.9268879268878" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="BillExercise:DataStructure:1.0-SNAPSHOT" target="commons-beanutils:commons-beanutils:jar:1.9.3">
-              <point x="62.5" y="-4.571428571428555" />
-              <point x="-83.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/xml-apis:xml-apis:jar:1.3.03">
-              <point x="50.0" y="-0.0" />
-              <point x="864.0" y="441.23323713323714" />
-              <point x="944.0" y="460.67688792688784" />
-              <point x="-44.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-impl:jar:1.2.2">
-              <point x="43.0" y="-0.0" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4" target="org.apache.bsf:bsf-utils:jar:3.1/org.apache.ws.commons.axiom:axiom-api:jar:1.2.2/javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1">
-              <point x="30.5" y="-0.0" />
-              <point x="-49.0" y="-0.0" />
-            </edge>
-            <edge source="commons-beanutils:commons-beanutils:jar:1.9.3" target="commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2">
-              <point x="83.0" y="-8.0" />
-              <point x="-88.0" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6897001303780965" x="264.0" y="338.0" />
-          <SelectedNodes>
-            <node>commons-chain:commons-chain:jar:1.2</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6587423312883436" x="642.0" y="234.0" />
+          <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tools/TimerTest.java">
+    <entry file="file://$MAVEN_REPOSITORY$/cglib/cglib-nodep/3.2.6/cglib-nodep-3.2.6.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="-1875">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plan/NodeProject.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacadeProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/jdk/BookFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/CglibMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/BookFacadeCglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NumOfBoomerangs.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpattern/proxy/dynamic/cglib/TestCglib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NumOfBoomerangs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NumOfSegments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/FindAnagramInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/FindDisappearedNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="92" lean-forward="false" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/MinMoves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reference/性能检测工具.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/reference/jvm虚拟机参数设置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reference/如何解决跨域问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/AddStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3175">
+          <caret line="150" column="16" lean-forward="false" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/AssignCookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14650">
+          <caret line="642" column="25" lean-forward="false" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/PoorPigs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/RepeatedSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15100">
+          <caret line="655" column="16" lean-forward="false" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/Heater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="550">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="46150">
+          <caret line="1905" column="23" lean-forward="false" selection-start-line="1905" selection-start-column="23" selection-end-line="1905" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/IslandPerimeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12450">
+          <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NumberComplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/LargestPalindromeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/LicenseKeyFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/FindMaxConsecOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/ConstructRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/NextGreaterElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>
