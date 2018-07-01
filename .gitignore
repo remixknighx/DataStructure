@@ -1,3 +1,6 @@
-.idea/
-target/
+.idea/*
+target/*
+.settings/*
+.project
+bin/*
 DataStructure.iml
