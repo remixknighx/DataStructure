@@ -218,3 +218,52 @@ while [ $count -le 5 ]; do
 done
 echo "Finished"
 ```
+
+- case
+    - a) 若关键字为a则吻合
+    - [[:alpha:]]) 若关键字为单个字母则吻合
+    - ???) 若关键字为三个字符则吻合
+    - *.txt) 若关键字以.txt结尾则吻合
+    - *) 与任何关键字吻合
+```
+<!-- 模式 -->
+case word in
+    [pattern [| pattern]...) commands ;;]...
+esac
+
+<!-- example -->
+#!/bin/bash
+
+clear
+echo "
+
+Please select:
+1. Display System Information
+2. Display Disk Space
+3. Display Home Space Utilization
+0. Quit
+"
+read -p "Enter selection [a, b, c, d] > " REPLY
+
+case $REPLY in
+        a|A) echo "Program terminated"
+                exit
+                ;;
+        b|B) echo "Hostname: $HOSTNAME"
+                uptime
+                ;;
+        c|C) df -h
+                ;;
+        d|D) if [[ $(id -u) -eq 0 ]]; then
+                echo "Home Space Utilization (All Users)"
+                du -sh /home/*
+           else
+                echo "Home Space Utilization ($USER)"
+                du -sh $HOME
+           fi
+           ;;
+       *) echo "Invalid entry" >&2
+               exit 1
+               ;;
+esac
+```
