@@ -267,3 +267,106 @@ case $REPLY in
                ;;
 esac
 ```
+
+- for循环
+    - 传统shell形式
+    ```
+    for variable [in words]; do
+        commands
+    done
+    
+    <!-- example a -->
+     for i in A B C D; do echo $i; done
+     
+    <!-- example b -->
+    for i in {a..z}; do echo $i; done
+    ```
+    - C语言形式
+    ```
+    for (( expression1; expression2; expression3 )); do
+        commands
+    done
+    
+    <!-- example a -->
+    #!/bin/bash
+
+    for (( i=0; i<5; i=i+1 )); do
+        echo $i
+    done
+    ```
+    
+- 字符串和数字
+    - 基本参数
+    ```
+    a="foo"
+    echo "${a}_file" -> foo_file
+    ```
+    
+    - 空变量扩展的管理
+    ```
+    ${parameter:-word}
+    如果parameter未被设定或者是空参数，则其扩展为word的值
+    
+    ${parameter:=word}
+    如果parameter未被设定或者是空参数，则其扩展为word的值，此外word的值也将赋给parameter
+    
+    ${parameter:?word}
+    如果parameter未设定或为空，这样扩展会致使脚本出错而退出，并且word内容输出到标准错误
+    
+    ${parameter:+word}
+    如果parameter未设定或为空，将不产生任何扩展。若parameter非空，word的值将取代parameter的值；然而，paramter的值不发生任何变化
+    ```
+
+    - 返回变量名的扩展
+    ```
+    ${!prefix*}
+    ${!prefix@}
+    该扩展返回当前以prefix开头的变量名
+    ```
+    
+    - 字符串操作
+    ```
+    ${#parameter} 返回字符串的长度
+    
+    ${parameter:offset} or ${parameter:offset:length} 返回部分包含在参数parameter中的字符串
+    
+    ${parameter#pattern} 去除了包含在parameter中的字符串的主要部分，#形式去除最短匹配
+    ${parameter##pattern} ##去除最长匹配
+    
+    ${parameter%pattern} 与#,##相同，从参数包含的字符串末尾去除末尾，而非字符串开头
+    ${parameter%%pattern}
+    
+    ${parameter/pattern/string} string替换pattern，第一个出现的pattern被替换
+    ${parameter//pattern/string} string替换pattern，所有pattern被替换
+    ${parameter/#pattern/string} string替换pattern，要求匹配出现在字符串开头
+    ${parameter/%pattern/string} string替换pattern，要求匹配出现在字符串末尾
+    ```
+
+- 数组
+```
+1. 创建一个数组
+declare -a a
+
+2. 数组赋值
+name[subscript]=value
+name=[value1 value2...
+
+3. 输出数组的所有内容
+animals=("a dog" "a cat" "a fish")
+for i in "${animals[*]}"; do echo $i; done "*"将数组所有内容放在一个字中
+for i in "${animals[@]}"; do echo $i; done "@"使用3个字来显示数组的真实内容
+
+3. 确定数组元素的数目
+a[100]=foo
+echo ${#a[@]} # number of array elements
+echo ${#a[100]} # length of element 100
+
+4. 在数组的结尾增加元素
+foo=(a b c)
+foo+=(d e f)
+echo ${foo[@]}
+
+5. 数组的删除
+unset foo 删除所有元素
+unset 'foo[1]' 删除指定元素
+```
