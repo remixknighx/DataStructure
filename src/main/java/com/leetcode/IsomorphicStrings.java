@@ -1,6 +1,5 @@
 package com.leetcode;
 
-import java.util.HashMap;
 
 /**
  * 205. Isomorphic Strings
