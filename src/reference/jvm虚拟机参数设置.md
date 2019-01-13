@@ -12,6 +12,8 @@
 - **-Xss:** 设置线程栈大小
 - **XX:MaxDirectMemorySize:** 本机直接内存(DirectMemory容量)，若不指定，则与java堆最大值(-Xmx)一样
 - **-XX:TargetSurvivorRatio:** 设置survivor区的可使用率。当survivor区的空间使用率达到这个数值时，会将对象送入老年代。
+- **XX:MetaspaceSize:**=8m 
+- **XX:MaxMetaspaceSize:**
 
 ## GC相关参数总结
 ### 与串行回收器相关的参数

@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 /**
  * 501. Find Mode in Binary Search Tree
- * @link https://leetcode.com/problems/find-mode-in-binary-search-tree/description/
  *
  * @author wangjf
+ * @link https://leetcode.com/problems/find-mode-in-binary-search-tree/description/
  * @date 2018/8/12 0012.
  */
 public class FindMode {
@@ -34,25 +34,25 @@ public class FindMode {
         return modes;
     }
 
-    public void handleValue(int val){
-        if(currVal != val){
+    public void handleValue(int val) {
+        if (currVal != val) {
             currVal = val;
             currCount = 0;
         }
         currCount++;
-        if(currCount > maxCount){
+        if (currCount > maxCount) {
             maxCount = currCount;
             modeCount = 1;
-        }else if (currCount == maxCount){
-            if(modes != null){
+        } else if (currCount == maxCount) {
+            if (modes != null) {
                 modes[modeCount] = currVal;
             }
             modeCount++;
         }
     }
 
-    public void inOrder(TreeNode root){
-        if(root == null){
+    public void inOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         inOrder(root.left);
