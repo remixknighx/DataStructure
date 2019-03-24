@@ -4,3 +4,5 @@ target/*
 .project
 bin/*
 DataStructure.iml
+/.classpath
+/.vscode/

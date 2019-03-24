@@ -1,7 +1,5 @@
 package com.concurrent.cp;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 /**
  * @author wangjf
  * @date 2018/1/21 0021.
