@@ -9,6 +9,7 @@ package com.designpattern.decorator;
  */
 public interface IPacketCreator {
 
+    // for test
     public String handleContent();
 
 }
