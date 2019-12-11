@@ -1,6 +1,8 @@
 package com.concurrent.juc;
 
-import java.util.concurrent.CountDownLatch;
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
+
+import java.util.concurrent.*;
 
 public class CountDownLatchTest {
 
@@ -8,13 +10,17 @@ public class CountDownLatchTest {
         CountDownLatch startSignal = new CountDownLatch(5);
         CountDownLatch doneSignal = new CountDownLatch(5);
 
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 5, 0, TimeUnit.MILLISECONDS,
+                new ArrayBlockingQueue<>(1));
+
         for (int i = 0; i < 5; i++) {
-            new Thread(new Worker(i, startSignal, doneSignal)).start();
+            executor.submit(new Worker(i, startSignal, doneSignal));
             startSignal.countDown();
         }
 
-        System.out.println("wait for the signal");
+        System.out.println(Thread.currentThread().getName() + " wait for the signal");
         doneSignal.await();
+        executor.shutdown();
         System.out.println("game end");
     }
 
@@ -35,7 +41,7 @@ class Worker implements Runnable{
     public void run() {
         try {
             startSignal.await();
-            System.out.println("Work: " + workNum);
+            System.out.println(Thread.currentThread().getName() + " Work: " + workNum);
             doneSignal.countDown();
         } catch (InterruptedException e) {
             e.printStackTrace();
