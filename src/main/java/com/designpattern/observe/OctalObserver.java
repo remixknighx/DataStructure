@@ -8,6 +8,7 @@ import java.util.Observer;
  * @date 2018/2/4 0004.
  */
 public class OctalObserver implements Observer {
+    @Override
     public void update(Observable o, Object arg) {
         System.out.println("Octal String: ");
     }

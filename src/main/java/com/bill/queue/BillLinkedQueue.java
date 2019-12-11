@@ -1,9 +1,7 @@
 package com.bill.queue;
 
-import java.util.NoSuchElementException;
-
 /**
- * Ê¹ÓÃË«ÏòÁ´±í·½Ê½ÊµÏÖµÄ¶ÓÁĞ
+ * ä½¿ç”¨åŒå‘é“¾è¡¨æ–¹å¼å®ç°çš„é˜Ÿåˆ—
  */
 public class BillLinkedQueue<T> {
 
@@ -14,7 +12,7 @@ public class BillLinkedQueue<T> {
     public BillLinkedQueue(){}
 
     /**
-     * Èë¶Ó
+     * å…¥é˜Ÿ
      */
     public void enqueue(T item){
         Node<T> l = lastNode;
@@ -28,7 +26,7 @@ public class BillLinkedQueue<T> {
     }
 
     /**
-     * ³ö¶Ó
+     * å‡ºé˜Ÿ
      * */
     public T dequeue(){
         T item = firstNode.item;

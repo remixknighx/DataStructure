@@ -1,6 +1,5 @@
 package com.designpattern.observe;
 
-import java.util.Observable;
 import java.util.Observer;
 
 /**

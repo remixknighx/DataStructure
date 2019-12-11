@@ -14,6 +14,7 @@ public class DBQuery implements IDBQuery {
         }
     }
 
+    @Override
     public String request() {
         return "request string";
     }

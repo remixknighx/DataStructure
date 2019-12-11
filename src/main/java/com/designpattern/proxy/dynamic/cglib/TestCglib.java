@@ -1,7 +1,5 @@
 package com.designpattern.proxy.dynamic.cglib;
 
-import com.designpattern.proxy.dynamic.jdk.BookFacadeImpl;
-
 /**
  * @author wangjf
  * @date 2018/2/4 0004.
@@ -9,9 +7,10 @@ import com.designpattern.proxy.dynamic.jdk.BookFacadeImpl;
 public class TestCglib {
 
     public static void main(String[] args) {
-        BookFacadeCglibProxy cglib = new BookFacadeCglibProxy();
-        BookFacadeCglib bookCglib = (BookFacadeCglib) cglib.getInstance(new BookFacadeCglib());
+        BookFacadeCglib bookCglib = CglibDynamicProxy.getInstance(BookFacadeCglib.class);
         bookCglib.addBook();
+        bookCglib.addBook("Harry Potter");
+
     }
 
 }

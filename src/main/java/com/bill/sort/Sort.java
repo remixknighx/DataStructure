@@ -1,7 +1,7 @@
 package com.bill.sort;
 
 /**
- * ÅÅĞòËã·¨µÄ¸÷ÖÖÊµÏÖ
+ * æ’åºç®—æ³•çš„å„ç§å®ç°
  */
 public class Sort {
 
@@ -13,11 +13,11 @@ public class Sort {
         }
     }
 
-    /* Ã°ÅİÅÅĞò start */
+    /* å†’æ³¡æ’åº start */
     /**
-     * Ã°ÅİÅÅĞòËã·¨
+     * å†’æ³¡æ’åºç®—æ³•
      *
-     * @param array ´ıÅÅĞòµÄÊı×é
+     * @param array å¾…æ’åºçš„æ•°ç»„
      */
     public static <T extends Comparable<? super T>> void bubbleSort(T[] array) {
         for (int i = 0; i < array.length; i++) {
@@ -30,13 +30,13 @@ public class Sort {
             }
         }
     }
-    /* Ã°ÅİÅÅĞò end */
+    /* å†’æ³¡æ’åº end */
 
-    /* Ñ¡ÔñÅÅĞò start */
+    /* é€‰æ‹©æ’åº start */
     /**
-     * Ñ¡ÔñÅÅĞò
+     * é€‰æ‹©æ’åº
      *
-     * @param array ´ıÅÅĞòµÄÊı×é
+     * @param array å¾…æ’åºçš„æ•°ç»„
      */
     public static <T extends Comparable<? super T>> void selectSort(T[] array) {
         for (int i = 0; i < array.length - 1; i++) {
@@ -56,13 +56,13 @@ public class Sort {
 
         }
     }
-    /* Ñ¡ÔñÅÅĞò end */
+    /* é€‰æ‹©æ’åº end */
 
-    /* ²åÈëÅÅĞò start */
+    /* æ’å…¥æ’åº start */
     /**
-     * ²åÈëÅÅĞòËã·¨µÄÊµÏÖ
+     * æ’å…¥æ’åºç®—æ³•çš„å®ç°
      *
-     * @param array ´ıÅÅĞòµÄÊı×é
+     * @param array å¾…æ’åºçš„æ•°ç»„
      * */
     public static <T extends Comparable<? super T>> void insertSort(T[] array){
         for (int i = 1; i < array.length; i++) {
@@ -77,12 +77,12 @@ public class Sort {
             }
         }
     }
-    /* ²åÈëÅÅĞò end */
+    /* æ’å…¥æ’åº end */
 
     /**
-     * Ï£¶ûÅÅĞòËã·¨µÄÊµÏÖ
+     * å¸Œå°”æ’åºç®—æ³•çš„å®ç°
      *
-     * @param array ´ıÅÅĞòµÄÊı×é
+     * @param array å¾…æ’åºçš„æ•°ç»„
      * */
     public static <T extends Comparable<? super T>> void shellSort(T[] array){
         for(int gap = array.length/2; gap > 0; gap /= 2){
@@ -98,11 +98,11 @@ public class Sort {
        }
     }
 
-    /* ÊµÏÖ¶ÑÅÅĞòµÄ¹«¹²·½·¨¼°ÆäÄÚ²¿·½·¨ heapsort starts */
+    /* å®ç°å †æ’åºçš„å…¬å…±æ–¹æ³•åŠå…¶å†…éƒ¨æ–¹æ³• heapsort starts */
     /**
-     * ¶ÑÅÅĞò
+     * å †æ’åº
      *
-     * @param array ´ıÅÅĞòµÄarrayÊı×é
+     * @param array å¾…æ’åºçš„arrayæ•°ç»„
      * */
     public static <T extends Comparable<? super T>> void heapSort(T[] array){
         for(int i = array.length/2; i >= 0; i--){
@@ -116,11 +116,11 @@ public class Sort {
     }
 
     /**
-     * ÏÂÂË²Ù×÷ÓÃÀ´É¾³ı×î´óÖµÒÔ¼°¹¹Ôì¶Ñ
+     * ä¸‹æ»¤æ“ä½œç”¨æ¥åˆ é™¤æœ€å¤§å€¼ä»¥åŠæ„é€ å †
      *
-     * @param array Êı×é¶ÑÔªËØ
-     * @param i ´Ó½Úµãi´¦µÄÔªËØ½øĞĞÏÂÂË²Ù×÷
-     * @param n ¶ÑµÄ³ß´ç
+     * @param array æ•°ç»„å †å…ƒç´ 
+     * @param i ä»èŠ‚ç‚¹iå¤„çš„å…ƒç´ è¿›è¡Œä¸‹æ»¤æ“ä½œ
+     * @param n å †çš„å°ºå¯¸
      * */
     private static <T extends Comparable<? super T>> void percDown(T[] array, int i, int n){
         int child;
@@ -141,7 +141,7 @@ public class Sort {
     }
 
     /**
-     * ½«Î»ÖÃaÓëÎ»ÖÃbÉÏµÄÔªËØ½øĞĞ½»»»
+     * å°†ä½ç½®aä¸ä½ç½®bä¸Šçš„å…ƒç´ è¿›è¡Œäº¤æ¢
      *
      * @param array
      * @param a
@@ -158,21 +158,21 @@ public class Sort {
     }
 
     /**
-     * »ñÈ¡Ò»¸ö½ÚµãµÄ×ó¶ù×ÓµÄË÷ÒıÖµ
+     * è·å–ä¸€ä¸ªèŠ‚ç‚¹çš„å·¦å„¿å­çš„ç´¢å¼•å€¼
      *
-     * @param i ½ÚµãµÄË÷ÒıÖµ
-     * @return ¸Ã½Úµã×ó¶ù×ÓµÄË÷ÒıÖµ
+     * @param i èŠ‚ç‚¹çš„ç´¢å¼•å€¼
+     * @return è¯¥èŠ‚ç‚¹å·¦å„¿å­çš„ç´¢å¼•å€¼
      * */
     private static int leftChild(int i){
         return 2 * i + 1;
     }
-    /* ¶ÑÅÅĞòÊµÏÖ½áÊø heapsort ends */
+    /* å †æ’åºå®ç°ç»“æŸ heapsort ends */
 
-    /* ¹é²¢ÅÅĞò starts */
+    /* å½’å¹¶æ’åº starts */
     /**
-     * ¹é²¢ÅÅĞòµÄµÚÒ»ÖÖÊµÏÖ
+     * å½’å¹¶æ’åºçš„ç¬¬ä¸€ç§å®ç°
      *
-     * @param array ´ıÅÅĞòµÄÊı×é
+     * @param array å¾…æ’åºçš„æ•°ç»„
      * */
     public static <T extends Comparable<? super T>> void mergeSort(T[] array){
         T[] tmpArray = (T[]) new Comparable[array.length];
@@ -180,12 +180,12 @@ public class Sort {
     }
 
     /**
-     * ÄÚ²¿·½·¨ÊµÏÖµİ¹éµ÷ÓÃ
+     * å†…éƒ¨æ–¹æ³•å®ç°é€’å½’è°ƒç”¨
      *
-     * @param array ´ıÅÅĞòÊı×é
-     * @param tmpArray ´æ·ÅºÏ²¢½á¹ûµÄÁÙÊ±Êı×é
-     * @param left ×ÓÊı×éµÄ×î×óË÷ÒıÖµ
-     * @param right ×ÓÊı×éµÄ×îÓÒË÷ÒıÖµ
+     * @param array å¾…æ’åºæ•°ç»„
+     * @param tmpArray å­˜æ”¾åˆå¹¶ç»“æœçš„ä¸´æ—¶æ•°ç»„
+     * @param left å­æ•°ç»„çš„æœ€å·¦ç´¢å¼•å€¼
+     * @param right å­æ•°ç»„çš„æœ€å³ç´¢å¼•å€¼
      * */
     private static <T extends Comparable<? super T>> void mergeSort(T[] array, T[] tmpArray, int left, int right){
         if(left < right){
@@ -197,7 +197,7 @@ public class Sort {
     }
 
     /**
-     * ºÏ²¢Á½×éÒÑÅÅĞòµÄ×ÓÊı×é
+     * åˆå¹¶ä¸¤ç»„å·²æ’åºçš„å­æ•°ç»„
      * */
     private static <T extends Comparable<? super T>> void merge(T[] array, T[] tmpArray, int leftPos, int rightPos, int rightEnd){
         int leftEnd = rightPos - 1;
@@ -225,21 +225,21 @@ public class Sort {
             array[i] = tmpArray[i];
         }
     }
-    /* ¹é²¢ÅÅĞò ends */
+    /* å½’å¹¶æ’åº ends */
 
-    /* ¿ìËÙÅÅĞò starts */
+    /* å¿«é€Ÿæ’åº starts */
 
     /**
-     * ¿ìËÙÅÅĞòËã·¨
+     * å¿«é€Ÿæ’åºç®—æ³•
      * */
     public static <T extends Comparable<? super T>> void quickSort(T[] array){
         quickSort(array, 0, array.length - 1);
     }
 
     /**
-     * ¿ìËÙÅÅĞòµÄÄÚ²¿ÊµÏÖ·½·¨
+     * å¿«é€Ÿæ’åºçš„å†…éƒ¨å®ç°æ–¹æ³•
      *
-     * @param array ´ıÅÅĞòÊı×é
+     * @param array å¾…æ’åºæ•°ç»„
      * @param left
      * @param right
      * */
@@ -265,7 +265,7 @@ public class Sort {
     }
 
     /**
-     * ½«left£¬right£¬centerÈı¸öÖµ½øĞĞÅÅĞò£¬²¢½«ÊàÅ¦Ôª·ÅÔÚright-1´¦
+     * å°†leftï¼Œrightï¼Œcenterä¸‰ä¸ªå€¼è¿›è¡Œæ’åºï¼Œå¹¶å°†æ¢çº½å…ƒæ”¾åœ¨right-1å¤„
      * */
     private static <T extends Comparable<? super T>> T median3(T[] array, int left, int right){
         int center = (left+right) / 2;
@@ -280,9 +280,9 @@ public class Sort {
             swapReferences(array, right, center);
         }
         
-        // ½«ÊàÅ¦Ôª·ÅÔÚright-1´¦
+        // å°†æ¢çº½å…ƒæ”¾åœ¨right-1å¤„
         swapReferences(array, center, right-1);
         return array[right-1];
     }
-    /* ¿ìËÙÅÅĞò ends */
+    /* å¿«é€Ÿæ’åº ends */
 }

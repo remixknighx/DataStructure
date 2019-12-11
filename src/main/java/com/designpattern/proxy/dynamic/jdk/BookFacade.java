@@ -6,6 +6,8 @@ package com.designpattern.proxy.dynamic.jdk;
  */
 public interface BookFacade {
 
-    public void addBook();
+    void addBook();
+
+    void addBook(String bookName);
 
 }

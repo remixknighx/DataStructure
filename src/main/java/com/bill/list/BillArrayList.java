@@ -24,7 +24,7 @@ public class BillArrayList<T> implements Iterable<T> {
 
     public T get(int index){
         if(index < 0 || index >= size){
-            throw new ArrayIndexOutOfBoundsException("¸ÃË÷ÒýÖµ²»·ûºÏÒªÇó");
+            throw new ArrayIndexOutOfBoundsException("è¯¥ç´¢å¼•å€¼ä¸ç¬¦åˆè¦æ±‚");
         }
 
         return items[index];
@@ -32,7 +32,7 @@ public class BillArrayList<T> implements Iterable<T> {
 
     public T set(int index, T newVal){
         if(index < 0 || index >= size){
-            throw new ArrayIndexOutOfBoundsException("¸ÃË÷ÒýÖµ²»·ûºÏÒªÇó");
+            throw new ArrayIndexOutOfBoundsException("è¯¥ç´¢å¼•å€¼ä¸ç¬¦åˆè¦æ±‚");
         }
 
         T old = items[index];
@@ -89,7 +89,7 @@ public class BillArrayList<T> implements Iterable<T> {
     }
 
     /**
-     * ´´½¨Ò»¸öÐÂµÄ´óÈÝÁ¿Êý×é£¬²¢½«ÀÏÊý×éÖÐµÄÖµ¸´ÖÆµ½ÐÂÊý×éÖÐ
+     * åˆ›å»ºä¸€ä¸ªæ–°çš„å¤§å®¹é‡æ•°ç»„ï¼Œå¹¶å°†è€æ•°ç»„ä¸­çš„å€¼å¤åˆ¶åˆ°æ–°æ•°ç»„ä¸­
      *
      * @param newCapacity
      * */
@@ -104,6 +104,7 @@ public class BillArrayList<T> implements Iterable<T> {
         }
     }
 
+    @Override
     public Iterator<T> iterator() {
         return new ArrayListIterator<T>();
     }
@@ -116,10 +117,12 @@ public class BillArrayList<T> implements Iterable<T> {
             return null;
         }
 
+        @Override
         public boolean hasNext() {
             return current < size;
         }
 
+        @Override
         public T next() {
             if(!hasNext()){
                 throw new NoSuchElementException();
@@ -127,6 +130,7 @@ public class BillArrayList<T> implements Iterable<T> {
             return (T) items[current++];
         }
 
+        @Override
         public void remove() {
             BillArrayList.this.remove(--current);
         }

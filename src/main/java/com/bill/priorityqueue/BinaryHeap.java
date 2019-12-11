@@ -3,24 +3,24 @@ package com.bill.priorityqueue;
 import java.util.Comparator;
 
 /**
- * ¶ş²æ¶Ñ£º<b>½á¹¹ĞÔ</b>ºÍ<b>Êı¾İĞÔ</b>
- * ¸ÃÀıÊ¹ÓÃÊı×éµÄ·½Ê½ÊµÏÖ¶ş²æ¶Ñ½á¹¹
+ * äºŒå‰å †ï¼š<b>ç»“æ„æ€§</b>å’Œ<b>æ•°æ®æ€§</b>
+ * è¯¥ä¾‹ä½¿ç”¨æ•°ç»„çš„æ–¹å¼å®ç°äºŒå‰å †ç»“æ„
  */
 public class BinaryHeap<T extends Comparable<? super T>> {
 
     /* private field */
     /**
-     * Ä¬ÈÏÊı×éÔªËØ´óĞ¡
+     * é»˜è®¤æ•°ç»„å…ƒç´ å¤§å°
      * */
     private static final int DEFAULT_CAPACITY = 10;
 
     /**
-     * µ±Ç°¶ş²æ¶Ñ³ß´ç´óĞ¡
+     * å½“å‰äºŒå‰å †å°ºå¯¸å¤§å°
      * */
     private int currentSize = 0;
 
     /**
-     * ±£´æÔªËØµÄ¶ş²æ¶ÑÊı×é
+     * ä¿å­˜å…ƒç´ çš„äºŒå‰å †æ•°ç»„
      * */
     private T[] array;
 
@@ -45,16 +45,16 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     /**
-     * ²åÈë¶ş²æ¶ÑÖĞ£¬Í¬Ê±±£³Ö¶ÑÔªËØµÄË³Ğò
+     * æ’å…¥äºŒå‰å †ä¸­ï¼ŒåŒæ—¶ä¿æŒå †å…ƒç´ çš„é¡ºåº
      *
-     * @param element ´ı²åÈëµÄ¶ÑÔªËØ
+     * @param element å¾…æ’å…¥çš„å †å…ƒç´ 
      * */
     public void insert(T element){
         if(currentSize == array.length-1){
             enlargeArray(array.length * 2 + 1);
         }
 
-        // ½øĞĞÉÏÂË²Ù×÷
+        // è¿›è¡Œä¸Šæ»¤æ“ä½œ
         int hole = ++currentSize;
         while ((hole > 1) && (element.compareTo(array[hole / 2]) < 0)){
             array[hole] = array[hole/2];
@@ -65,20 +65,20 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     /**
-     * ·µ»ØÓÅÏÈ¶ÓÁĞÖĞµÄ×îĞ¡Öµ
+     * è¿”å›ä¼˜å…ˆé˜Ÿåˆ—ä¸­çš„æœ€å°å€¼
      *
-     * @return ·µ»Ø¶ş²æ¶ÑÖĞµÄ×îĞ¡Öµ
+     * @return è¿”å›äºŒå‰å †ä¸­çš„æœ€å°å€¼
      * */
     public T deleteMin(){
         if(isEmpty()){
             throw new NullPointerException();
         }
 
-        // ¶ş²æ¶ÑÖĞµÄ×îĞ¡ÔªËØ×ÜÔÚÊ÷¸ù´¦£¬¼´array[1]´¦
+        // äºŒå‰å †ä¸­çš„æœ€å°å…ƒç´ æ€»åœ¨æ ‘æ ¹å¤„ï¼Œå³array[1]å¤„
         T minItem = array[1];
 
-        // ½«Êı×éÖĞµÄ×îºóÒ»¸öÔªËØ·ÅÔÚÊ÷¸ù´¦£¬²¢½øĞĞÏÂÂË²Ù×÷
-        // Ê¹¶ÑÅÅĞòÕı³£
+        // å°†æ•°ç»„ä¸­çš„æœ€åä¸€ä¸ªå…ƒç´ æ”¾åœ¨æ ‘æ ¹å¤„ï¼Œå¹¶è¿›è¡Œä¸‹æ»¤æ“ä½œ
+        // ä½¿å †æ’åºæ­£å¸¸
         array[1] = array[currentSize--];
         percolateDown(1);
 
@@ -86,16 +86,16 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     /**
-     * ÅĞ¶Ï¶ş²æ¶ÑÊÇ·ñÎª¿Õ
+     * åˆ¤æ–­äºŒå‰å †æ˜¯å¦ä¸ºç©º
      *
-     * @return ÈôÎª¿Õ¶Ñ£¬Ôò·µ»Øtrue£¬·´Ö®ÔòÎªfalse
+     * @return è‹¥ä¸ºç©ºå †ï¼Œåˆ™è¿”å›trueï¼Œåä¹‹åˆ™ä¸ºfalse
      * */
     public boolean isEmpty(){
         return currentSize == 0;
     }
 
     /**
-     * Çå¿Õ¶ş²æ¶ÑÖĞµÄÔªËØ
+     * æ¸…ç©ºäºŒå‰å †ä¸­çš„å…ƒç´ 
      * */
     public void makeEmpty(){
         currentSize = 0;
@@ -106,8 +106,8 @@ public class BinaryHeap<T extends Comparable<? super T>> {
 
     /* private method */
     /**
-     * ÏÂÂË²Ù×÷£¬½«¸¸½Úµã²»¶ÏµØÓë×Ó½Úµã½øĞĞ±È½Ï
-     * Èô¸¸½ÚµãĞ¡ÓÚ×Ó½Úµã£¬Ôò½øĞĞ½»»»
+     * ä¸‹æ»¤æ“ä½œï¼Œå°†çˆ¶èŠ‚ç‚¹ä¸æ–­åœ°ä¸å­èŠ‚ç‚¹è¿›è¡Œæ¯”è¾ƒ
+     * è‹¥çˆ¶èŠ‚ç‚¹å°äºå­èŠ‚ç‚¹ï¼Œåˆ™è¿›è¡Œäº¤æ¢
      *
      * @param hole
      * */
@@ -118,8 +118,8 @@ public class BinaryHeap<T extends Comparable<? super T>> {
         for (;hole * 2 <= currentSize; hole = child){
             child = hole * 2;
 
-            // Ìõ¼şchild != currentSizeÊÇÎªÁËµ±Êı×éÓĞÅ¼Êı¸öÔªËØÊ±
-            // Ã»ÓĞÓÒ×Ó½ÚµãÇé¿öµÄ³öÏÖ
+            // æ¡ä»¶child != currentSizeæ˜¯ä¸ºäº†å½“æ•°ç»„æœ‰å¶æ•°ä¸ªå…ƒç´ æ—¶
+            // æ²¡æœ‰å³å­èŠ‚ç‚¹æƒ…å†µçš„å‡ºç°
             if(child != currentSize && array[child+1].compareTo(array[child]) < 0){
                 child++;
             }
@@ -134,7 +134,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     /**
-     * ¶ÔÈÎÒâ½á¹¹µÄ¶ÑË³Ğò½øĞĞÅÅÁĞ
+     * å¯¹ä»»æ„ç»“æ„çš„å †é¡ºåºè¿›è¡Œæ’åˆ—
      * */
     private void buildHeap(){
         for (int i = currentSize/2; i > 0 ; i--) {

@@ -4,12 +4,12 @@ package com.designpattern.proxy.dynamic.jdk;
  * @author wangjf
  * @date 2018/2/4 0004.
  */
-public class TestProxy {
+public class TestJdkProxy {
 
     public static void main(String[] args) {
-        BookFacadeProxy proxy = new BookFacadeProxy();
-        BookFacade bookFacade = (BookFacade) proxy.bind(new BookFacadeImpl());
+        BookFacade bookFacade = JdkProxyHelper.createProxy(BookFacade.class, BookFacadeImpl.class);
         bookFacade.addBook();
+        bookFacade.addBook("The Ring");
     }
 
 }

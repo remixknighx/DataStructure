@@ -12,25 +12,21 @@ import java.lang.reflect.Method;
  * @author wangjf
  * @date 2018/2/4 0004.
  */
-public class BookFacadeCglibProxy implements MethodInterceptor {
+public class CglibDynamicProxy implements MethodInterceptor {
 
-    private Object target;
-
-    public Object getInstance(Object target){
-        this.target = target;
+    public static <T> T getInstance(Class<T> targetClass){
         Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(this.target.getClass());
+        enhancer.setSuperclass(targetClass);
         // 回调方法
-        enhancer.setCallback(this);
+        enhancer.setCallback(new CglibDynamicProxy());
         // 创建代理对象
-        return enhancer.create();
+        return (T) enhancer.create();
     }
 
+    @Override
     public Object intercept(Object obj, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
 
-        System.out.println("cglib事务开始");
-        methodProxy.invokeSuper(obj, args);
-        System.out.println("cglib事务结束");
-        return null;
+        Object result = methodProxy.invokeSuper(obj, args);
+        return result;
     }
 }

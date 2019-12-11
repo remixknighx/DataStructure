@@ -12,6 +12,7 @@ public class FinancialReportManager implements IReportManager{
         this.tenantId = tenantId;
     }
 
+    @Override
     public String createReport() {
         return "This is a financial report";
     }

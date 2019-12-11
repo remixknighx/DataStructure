@@ -8,24 +8,24 @@ import java.util.NoSuchElementException;
 public class BillArrayQueue<T> {
 
     /**
-     * ³õÊ¼ÈİÁ¿
+     * åˆå§‹å®¹é‡
      * */
     private static final int DEFAULT_CAPACITY = 5;
 
     /**
-     * ¶ÓÍ·
+     * é˜Ÿå¤´
      * */
     private int front = 0;
 
     /**
-     * ¶ÓÎ²
+     * é˜Ÿå°¾
      * */
     private int rear = -1;
 
     private T[] items;
 
     /**
-     * Êı¾İÏî¸öÊı
+     * æ•°æ®é¡¹ä¸ªæ•°
      * */
     private int nItems;
 
@@ -42,7 +42,7 @@ public class BillArrayQueue<T> {
 
     public T dequeue(){
         if(items[front] == null){
-            throw new NoSuchElementException("¸Ã¶ÓÁĞÎª¿Õ");
+            throw new NoSuchElementException("è¯¥é˜Ÿåˆ—ä¸ºç©º");
         }
 
         return items[front++];

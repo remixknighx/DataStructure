@@ -1,12 +1,12 @@
 package com.bill.priorityqueue;
 
 /**
- * ×óÊ½¶ÑµÄÊµÏÖ
+ * å·¦å¼å †çš„å®ç°
  */
 public class LeftistHeap<T extends Comparable<T>> {
     /* private field */
     /**
-     * ×óÊ½¶ÑµÄ¸ù½Úµã
+     * å·¦å¼å †çš„æ ¹èŠ‚ç‚¹
      * */
     private Node<T> root;
 
@@ -14,10 +14,10 @@ public class LeftistHeap<T extends Comparable<T>> {
     public LeftistHeap(){}
 
     /**
-     * ½«×óÊ½¶ÑrhsºÏ²¢ÖÁÓÅÏÈ¶ÓÁĞÖĞ£¬rhs±äÎª¿Õ
-     * rhs¶Ñ±ØĞëÓëÔ­¶Ñ²»Í¬
+     * å°†å·¦å¼å †rhsåˆå¹¶è‡³ä¼˜å…ˆé˜Ÿåˆ—ä¸­ï¼Œrhså˜ä¸ºç©º
+     * rhså †å¿…é¡»ä¸åŸå †ä¸åŒ
      *
-     * @param rhs ĞèÒªºÏ²¢µÄ×óÊ½¶Ñ
+     * @param rhs éœ€è¦åˆå¹¶çš„å·¦å¼å †
      * */
     public void merge(LeftistHeap<T> rhs){
         if(this == rhs){
@@ -29,22 +29,22 @@ public class LeftistHeap<T extends Comparable<T>> {
     }
 
     /**
-     * ²åÈëĞÂÔªËØ
+     * æ’å…¥æ–°å…ƒç´ 
      *
-     * @param element ´ı²åÈëµÄÔªËØ
+     * @param element å¾…æ’å…¥çš„å…ƒç´ 
      * */
     public void insert(T element){
         root = merge(new Node<T>(element), root);
     }
 
     /**
-     * ·µ»Ø¶ÓÁĞÖĞµÄ×îĞ¡ÔªËØ
+     * è¿”å›é˜Ÿåˆ—ä¸­çš„æœ€å°å…ƒç´ 
      *
      * @return minItem
      * */
     public T deleteMin(){
         if(isEmpty()){
-            throw new NullPointerException("¸Ã¶ÓÁĞÖĞ²»´æÔÚÔªËØ");
+            throw new NullPointerException("è¯¥é˜Ÿåˆ—ä¸­ä¸å­˜åœ¨å…ƒç´ ");
         }
         T minItem = root.element;
         root = merge(root.left, root.right);
@@ -53,16 +53,16 @@ public class LeftistHeap<T extends Comparable<T>> {
     }
 
     /**
-     * ÅĞ¶Ï×óÊ½¶ÑÊÇ·ñÎª¿Õ
+     * åˆ¤æ–­å·¦å¼å †æ˜¯å¦ä¸ºç©º
      *
-     * @return Èç¹û×óÊ½¶ÑÎª¿Õ£¬Ôò·µ»Øtrue£¬·´Ö®ÔòÎªfalse
+     * @return å¦‚æœå·¦å¼å †ä¸ºç©ºï¼Œåˆ™è¿”å›trueï¼Œåä¹‹åˆ™ä¸ºfalse
      * */
     public boolean isEmpty(){
         return root == null;
     }
 
     /**
-     * Çå¿Õ×óÊ½¶ÑÖĞÔªËØµÄÄÚÈİ
+     * æ¸…ç©ºå·¦å¼å †ä¸­å…ƒç´ çš„å†…å®¹
      * */
     public void makeEmpty(){
         root = null;
@@ -70,11 +70,11 @@ public class LeftistHeap<T extends Comparable<T>> {
 
     /* private method */
     /**
-     * ºÏ²¢Á½¸ö¶ÑµÄÄÚ²¿·½·¨£¬²ÉÓÃµİ¹éµÄ·½·¨
+     * åˆå¹¶ä¸¤ä¸ªå †çš„å†…éƒ¨æ–¹æ³•ï¼Œé‡‡ç”¨é€’å½’çš„æ–¹æ³•
      *
      * @param h1
      * @param h2
-     * @return ºÏ²¢ºóµÄĞÂ¶Ñ
+     * @return åˆå¹¶åçš„æ–°å †
      * */
     private Node<T> merge(Node<T> h1, Node<T> h2){
         if(h1 == null){
@@ -91,11 +91,11 @@ public class LeftistHeap<T extends Comparable<T>> {
     }
 
     /**
-     * ºÏ²¢Á½¸ö·Ç¿Õ¶Ñ£¬²¢ÇÒ¸ù½Úµãh1µÄÔªËØĞ¡ÓÚ¸ù½Úµãh2µÄÔªËØ
+     * åˆå¹¶ä¸¤ä¸ªéç©ºå †ï¼Œå¹¶ä¸”æ ¹èŠ‚ç‚¹h1çš„å…ƒç´ å°äºæ ¹èŠ‚ç‚¹h2çš„å…ƒç´ 
      *
      * @param h1
      * @param h2
-     * @return ºÏ²¢ºóµÄ¶Ñ
+     * @return åˆå¹¶åçš„å †
      * */
     private Node<T> merge1(Node<T> h1, Node<T> h2){
         if(h1.left == null){
@@ -111,9 +111,9 @@ public class LeftistHeap<T extends Comparable<T>> {
     }
 
     /**
-     * ½»»»¸Ã½Úµã×óÓÒÁ½¸ö×Ó½ÚµãµÄÎ»ÖÃ
+     * äº¤æ¢è¯¥èŠ‚ç‚¹å·¦å³ä¸¤ä¸ªå­èŠ‚ç‚¹çš„ä½ç½®
      *
-     * @param t ĞèÒª½øĞĞ½»»»µÄ½Úµã
+     * @param t éœ€è¦è¿›è¡Œäº¤æ¢çš„èŠ‚ç‚¹
      * */
     private void swapChildren(Node<T> t){
         Node<T> tmp = t.left;
@@ -128,7 +128,7 @@ public class LeftistHeap<T extends Comparable<T>> {
         Node<T> left;
         Node<T> right;
 
-        // ÁãÂ·¾¶³¤(null path length, npl)
+        // é›¶è·¯å¾„é•¿(null path length, npl)
         int npl;
 
         Node(T element){

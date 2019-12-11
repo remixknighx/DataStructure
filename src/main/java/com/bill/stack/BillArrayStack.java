@@ -3,7 +3,7 @@ package com.bill.stack;
 import java.util.NoSuchElementException;
 
 /**
- * Ê¹ÓÃÊı×é·½Ê½ÊµÏÖµÄ¶ÑÕ»
+ * ä½¿ç”¨æ•°ç»„æ–¹å¼å®ç°çš„å †æ ˆ
  */
 public class BillArrayStack<T> {
 
@@ -18,7 +18,7 @@ public class BillArrayStack<T> {
     }
 
     /**
-     * ½øÕ»²Ù×÷
+     * è¿›æ ˆæ“ä½œ
      */
     public void push(T stack){
         if(count == size()){
@@ -29,7 +29,7 @@ public class BillArrayStack<T> {
     }
 
     /**
-     * ³öÕ»²Ù×÷
+     * å‡ºæ ˆæ“ä½œ
      */
     public T pop(){
         if(count == 0){

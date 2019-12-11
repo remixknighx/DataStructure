@@ -8,6 +8,7 @@ public class DBQueryProxy implements IDBQuery {
 
     private IDBQuery dbQuery = null;
 
+    @Override
     public String request() {
 
         if(dbQuery == null){

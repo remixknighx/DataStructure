@@ -2,7 +2,6 @@ package com.bill.list;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
 /**
@@ -57,7 +56,7 @@ public class BillLinkedList<T> implements Iterable<T> {
         Node<T> p;
 
         if(index < 0 || index > size){
-            throw new IndexOutOfBoundsException("∏√" + index + "À˜“˝÷µ≤ª¥Ê‘⁄");
+            throw new IndexOutOfBoundsException("ËØ•" + index + "Á¥¢ÂºïÂÄº‰∏çÂ≠òÂú®");
         }
 
         if(index < size/2){
@@ -98,6 +97,7 @@ public class BillLinkedList<T> implements Iterable<T> {
         return size == 0;
     }
 
+    @Override
     public Iterator<T> iterator() {
         return new LinkedListIterator();
     }
@@ -109,10 +109,12 @@ public class BillLinkedList<T> implements Iterable<T> {
 
         public LinkedListIterator(){}
 
+        @Override
         public boolean hasNext(){
             return current != endMarker;
         }
 
+        @Override
         public T next(){
             if (modCount != expectedModCount){
                 throw new ConcurrentModificationException();
@@ -128,6 +130,7 @@ public class BillLinkedList<T> implements Iterable<T> {
             return nextItem;
         }
 
+        @Override
         public void remove(){
             if(modCount != expectedModCount){
                 throw new ConcurrentModificationException();

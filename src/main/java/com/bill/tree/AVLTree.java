@@ -1,7 +1,7 @@
 package com.bill.tree;
 
 /**
- * 左子树和右子树最多差1的二叉查找树
+ * 宸﹀瓙鏍戝拰鍙冲瓙鏍戞渶澶氬樊1鐨勪簩鍙夋煡鎵炬爲
  */
 public class AVLTree<T extends Comparable<T>>{
 
@@ -48,7 +48,7 @@ public class AVLTree<T extends Comparable<T>>{
     }
 
     /**
-     * 单旋转，对左儿子的左子树进行旋转
+     * 鍗曟棆杞紝瀵瑰乏鍎垮瓙鐨勫乏瀛愭爲杩涜鏃嬭浆
      * */
     private AvlNode<T> rotateWithLeftChild(AvlNode<T> node){
         AvlNode<T> newNode = node.left;
@@ -60,7 +60,7 @@ public class AVLTree<T extends Comparable<T>>{
     }
 
     /**
-     * 单旋转，对右儿子的右子树进行旋转
+     * 鍗曟棆杞紝瀵瑰彸鍎垮瓙鐨勫彸瀛愭爲杩涜鏃嬭浆
      * */
     private AvlNode<T> rotateWithRightChild(AvlNode<T> node){
         AvlNode<T> newNode = node.right;
@@ -72,7 +72,7 @@ public class AVLTree<T extends Comparable<T>>{
     }
 
     /**
-     * 双旋转，对左儿子的右子树进行旋转
+     * 鍙屾棆杞紝瀵瑰乏鍎垮瓙鐨勫彸瀛愭爲杩涜鏃嬭浆
      * */
     private AvlNode<T> doubleWithLeftChild(AvlNode<T> node){
         node.left = rotateWithRightChild(node.left);
@@ -80,7 +80,7 @@ public class AVLTree<T extends Comparable<T>>{
     }
 
     /**
-     * 双旋转，对右儿子的左子树进行旋转
+     * 鍙屾棆杞紝瀵瑰彸鍎垮瓙鐨勫乏瀛愭爲杩涜鏃嬭浆
      * */
     private AvlNode<T> doubleWithRightChild(AvlNode<T> node){
         node.right = rotateWithLeftChild(node.right);

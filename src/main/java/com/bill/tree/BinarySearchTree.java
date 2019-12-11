@@ -1,7 +1,7 @@
 package com.bill.tree;
 
 /**
- * ¶ş²æ²éÕÒÊ÷
+ * äºŒå‰æŸ¥æ‰¾æ ‘
  */
 public class BinarySearchTree<T extends Comparable<T>> {
 
@@ -83,7 +83,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         } else if (compareResult > 0){
             root.right = insert(element, root.right);
         }
-//        ÖØ¸´Ïî²åÈëÊ±£¬²»×öÈÎºÎ²Ù×÷
+//        é‡å¤é¡¹æ’å…¥æ—¶ï¼Œä¸åšä»»ä½•æ“ä½œ
         return root;
     }
 
@@ -121,7 +121,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     /**
-     * Ê¹ÓÃÖĞĞò±éÀú´òÓ¡Ê÷ÖĞËùÓĞÔªËØµÄÃû×Ö
+     * ä½¿ç”¨ä¸­åºéå†æ‰“å°æ ‘ä¸­æ‰€æœ‰å…ƒç´ çš„åå­—
      * */
     private void printTree(BinaryNode<T> root){
         if(root != null){
@@ -131,7 +131,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
     }
     /**
-     * ¹¹ÔìµÄ½ÚµãÀàĞÍ
+     * æ„é€ çš„èŠ‚ç‚¹ç±»å‹
      * */
     private static class BinaryNode<T>{
 

@@ -10,4 +10,8 @@ public class BookFacadeCglib {
         System.out.println("增加图书的普通方法...");
     }
 
+    public void addBook(String bookName) {
+        System.out.println("增加图书：" + bookName);
+    }
+
 }

@@ -10,6 +10,7 @@ public class PacketHTTPHeaderCreator extends PacketDecorator {
         super(component);
     }
 
+    @Override
     public String handleContent() {
         StringBuffer sb = new StringBuffer();
         sb.append("cache-control:no-cache\n");

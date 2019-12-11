@@ -1,7 +1,7 @@
 package com.bill.priorityqueue;
 
 /**
- * ¶şÏî¶ÓÁĞµÄÊµÏÖ
+ * äºŒé¡¹é˜Ÿåˆ—çš„å®ç°
  */
 public class BinomialQueue<T extends Comparable<T>> {
 
@@ -18,9 +18,9 @@ public class BinomialQueue<T extends Comparable<T>> {
     public BinomialQueue(T element){}
 
     /**
-     * ½«rhsºÏ²¢½øÓÅÏÈ¶ÓÁĞÖĞ
+     * å°†rhsåˆå¹¶è¿›ä¼˜å…ˆé˜Ÿåˆ—ä¸­
      *
-     * @param rhs ÁíÒ»¸ö¶şÏî¶ÓÁĞ
+     * @param rhs å¦ä¸€ä¸ªäºŒé¡¹é˜Ÿåˆ—
      * */
     public void merge(BinomialQueue<T> rhs){
         if(this == rhs){
@@ -82,9 +82,9 @@ public class BinomialQueue<T extends Comparable<T>> {
     }
 
     /**
-     * ²åÈëÒ»¿ÃĞÂÊ÷
+     * æ’å…¥ä¸€æ£µæ–°æ ‘
      *
-     * @param element ´ı²åÈëµÄÊ÷
+     * @param element å¾…æ’å…¥çš„æ ‘
      * */
     public void insert(T element){
         merge(new BinomialQueue<T>(element));
@@ -96,7 +96,7 @@ public class BinomialQueue<T extends Comparable<T>> {
 
     public T deleteMin() throws Exception {
         if(isEmpty()){
-            throw new Exception("¶şÏî¶ÓÁĞÎª¿Õ");
+            throw new Exception("äºŒé¡¹é˜Ÿåˆ—ä¸ºç©º");
         }
 
         int minIndex = findMinIndex();
@@ -123,9 +123,9 @@ public class BinomialQueue<T extends Comparable<T>> {
     }
 
     /**
-     * ÅĞ¶ÏÒ»¸ö¶ÓÁĞÊÇ·ñÎª¿Õ
+     * åˆ¤æ–­ä¸€ä¸ªé˜Ÿåˆ—æ˜¯å¦ä¸ºç©º
      *
-     * @return ÈôÎª¿Õ¶ÓÁĞ£¬Ôò·µ»Øtrue£¬·´Ö®ÔòÎªfalse
+     * @return è‹¥ä¸ºç©ºé˜Ÿåˆ—ï¼Œåˆ™è¿”å›trueï¼Œåä¹‹åˆ™ä¸ºfalse
      * */
     public boolean isEmpty(){
         return currentSize == 0;
@@ -143,12 +143,12 @@ public class BinomialQueue<T extends Comparable<T>> {
     }
 
     /**
-     * ½«Á½¿Ã¾ßÓĞÏàÍ¬³ß´ç´óĞ¡µÄÊ÷½øĞĞºÏ²¢
-     * Ê÷1µÄÔªËØ´óĞ¡ÒªĞ¡ÓÚÊ÷2
+     * å°†ä¸¤æ£µå…·æœ‰ç›¸åŒå°ºå¯¸å¤§å°çš„æ ‘è¿›è¡Œåˆå¹¶
+     * æ ‘1çš„å…ƒç´ å¤§å°è¦å°äºæ ‘2
      *
-     * @param t1 Ê÷1
-     * @param t2 Ê÷2
-     * @return ·µ»ØºÏ²¢ºóµÄÊ÷
+     * @param t1 æ ‘1
+     * @param t2 æ ‘2
+     * @return è¿”å›åˆå¹¶åçš„æ ‘
      * */
     private Node<T> combineTrees(Node<T> t1, Node<T> t2){
         if(t1.element.compareTo(t2.element) > 0){
@@ -160,9 +160,9 @@ public class BinomialQueue<T extends Comparable<T>> {
     }
 
     /**
-     * Ê÷µÄÈİÁ¿´óĞ¡
+     * æ ‘çš„å®¹é‡å¤§å°
      *
-     * @return ·µ»ØÊ÷ĞÂÔöµÄÈİÁ¿´óĞ¡
+     * @return è¿”å›æ ‘æ–°å¢çš„å®¹é‡å¤§å°
      * */
     private int capacity(){
         return (1 << theTrees.length) - 1;

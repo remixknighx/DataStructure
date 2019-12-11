@@ -8,6 +8,8 @@ import java.util.Observer;
  * @date 2018/2/4 0004.
  */
 public class BinaryObserver implements Observer {
+
+    @Override
     public void update(Observable o, Object arg) {
         System.out.println("Binary String:");
     }

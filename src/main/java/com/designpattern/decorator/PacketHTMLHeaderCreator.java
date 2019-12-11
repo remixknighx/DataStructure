@@ -10,6 +10,7 @@ public class PacketHTMLHeaderCreator extends PacketDecorator {
         super(component);
     }
 
+    @Override
     public String handleContent() {
         StringBuffer sb = new StringBuffer();
         sb.append("<html>");
