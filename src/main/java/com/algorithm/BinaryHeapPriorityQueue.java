@@ -148,95 +148,95 @@ class PriorityQueue {
     }
 }
 
-//class MaxPQ<K extends Comparable<K>> {
-//    /** 存储元素的数组 */
-//    private K[] pq;
-//    /** 当前Priority Queue中的元素个数 */
-//    private int n = 0;
-//
-//    public MaxPQ(int cap) {
-//        pq = (K[]) new Comparable[cap+1];
-//    }
-//
-//    public K max() {
-//        return pq[1];
-//    }
-//
-//    public void insert(K e) {
-//        n++;
-//        // 先把新元素加到最后
-//        pq[n] = e;
-//        // 然后让它上浮到正确的位置
-//        swim(n);
-//    }
-//
-//    /**
-//     * 删除并返回当前队列中最大元素
-//     */
-//    public K delMax(){
-//        // 最大堆的堆顶就是最大元素
-//        K max = pq[1];
-//        // 把这个最大元素换到最后，删除之
-//        exch(1, n);
-//        pq[n] = null;
-//        n--;
-//        // 让 pq[1] 下沉到正确位置
-//        sink(1);
-//        return max;
-//    }
-//
-//    /**
-//     * 上浮第k个元素，以维护最大堆性质
-//     */
-//    private void swim(int k) {
-//        // 如果浮到堆顶，就不能再上浮了
-//        while (k > 1 && less(parent(k), k)) {
-//            // 如果第 k 个元素比上层大
-//            // 将 k 换上去
-//            exch(parent(k), k);
-//            k = parent(k);
-//        }
-//    }
-//
-//    /**
-//     * 下沉第k个元素，以维护最大堆性质
-//     */
-//    private void sink(int k) {
-//        // 如果沉到堆底，就沉不下去了
-//        while (left(k) <= n) {
-//            // 先假设左边节点较大
-//            int older = left(k);
-//            // 如果右边节点存在，比一下大小
-//            if (right(k) <= n && less(older, right(k))) {
-//                older = right(k);
-//            }
-//            // 结点 k 比俩孩子都大，就不必下沉了
-//            if (less(older, k)) {
-//                break;
-//            }
-//            // 否则，不符合最大堆的结构，下沉 k 结点
-//            exch(k, older);
-//            k = older;
-//        }
-//    }
-//
-//    /**
-//     * 交换数组的两个元素
-//     */
-//    private void exch(int i, int j) {
-//        K temp = pq[i];
-//        pq[i] = pq[j];
-//        pq[j] = temp;
-//    }
-//
-//    /**
-//     * pq[i]是否比pq[j]小
-//     */
-//    private boolean less(int i, int j) {
-//        return pq[i].compareTo(pq[j]) < 0;
-//    }
-//
-//    private int parent(int num) {
-//        return null;
-//    }
-//}
+class MaxPQ<K extends Comparable<K>> {
+    /** 存储元素的数组 */
+    private K[] pq;
+    /** 当前Priority Queue中的元素个数 */
+    private int n = 0;
+
+    public MaxPQ(int cap) {
+        pq = (K[]) new Comparable[cap+1];
+    }
+
+    public K max() {
+        return pq[1];
+    }
+
+    public void insert(K e) {
+        n++;
+        // 先把新元素加到最后
+        pq[n] = e;
+        // 然后让它上浮到正确的位置
+        swim(n);
+    }
+
+    /**
+     * 删除并返回当前队列中最大元素
+     */
+    public K delMax(){
+        // 最大堆的堆顶就是最大元素
+        K max = pq[1];
+        // 把这个最大元素换到最后，删除之
+        exch(1, n);
+        pq[n] = null;
+        n--;
+        // 让 pq[1] 下沉到正确位置
+        sink(1);
+        return max;
+    }
+
+    /**
+     * 上浮第k个元素，以维护最大堆性质
+     */
+    private void swim(int k) {
+        // 如果浮到堆顶，就不能再上浮了
+        while (k > 1 && less(parent(k), k)) {
+            // 如果第 k 个元素比上层大
+            // 将 k 换上去
+            exch(parent(k), k);
+            k = parent(k);
+        }
+    }
+
+    /**
+     * 下沉第k个元素，以维护最大堆性质
+     */
+    private void sink(int k) {
+        // 如果沉到堆底，就沉不下去了
+        while (left(k) <= n) {
+            // 先假设左边节点较大
+            int older = left(k);
+            // 如果右边节点存在，比一下大小
+            if (right(k) <= n && less(older, right(k))) {
+                older = right(k);
+            }
+            // 结点 k 比俩孩子都大，就不必下沉了
+            if (less(older, k)) {
+                break;
+            }
+            // 否则，不符合最大堆的结构，下沉 k 结点
+            exch(k, older);
+            k = older;
+        }
+    }
+
+    /**
+     * 交换数组的两个元素
+     */
+    private void exch(int i, int j) {
+        K temp = pq[i];
+        pq[i] = pq[j];
+        pq[j] = temp;
+    }
+
+    /**
+     * pq[i]是否比pq[j]小
+     */
+    private boolean less(int i, int j) {
+        return pq[i].compareTo(pq[j]) < 0;
+    }
+
+    private int parent(int num) {
+        return null;
+    }
+}
