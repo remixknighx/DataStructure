@@ -20,6 +20,13 @@ import java.util.Arrays;
 public class BinaryHeapPriorityQueue {
 
     public static void main(String[] args) {
+        MaxPQ<Integer> maxPQ = new MaxPQ<>();
+        maxPQ.insert(12);
+        maxPQ.insert(32);
+        maxPQ.insert(24);
+        System.out.println(maxPQ.delMax());
+        System.out.println(maxPQ.delMax());
+        System.out.println(maxPQ.delMax());
 
     }
 
@@ -154,6 +161,12 @@ class MaxPQ<K extends Comparable<K>> {
     /** 当前Priority Queue中的元素个数 */
     private int n = 0;
 
+    private static int DEFAULT_SIZE = 15;
+
+    public MaxPQ() {
+        this(DEFAULT_SIZE);
+    }
+
     public MaxPQ(int cap) {
         pq = (K[]) new Comparable[cap+1];
     }
@@ -163,9 +176,11 @@ class MaxPQ<K extends Comparable<K>> {
     }
 
     public void insert(K e) {
-        n++;
+        if (n >= pq.length) {
+            resize();
+        }
         // 先把新元素加到最后
-        pq[n] = e;
+        pq[++n] = e;
         // 然后让它上浮到正确的位置
         swim(n);
     }
@@ -178,8 +193,7 @@ class MaxPQ<K extends Comparable<K>> {
         K max = pq[1];
         // 把这个最大元素换到最后，删除之
         exch(1, n);
-        pq[n] = null;
-        n--;
+        pq[n--] = null;
         // 让 pq[1] 下沉到正确位置
         sink(1);
         return max;
@@ -236,7 +250,25 @@ class MaxPQ<K extends Comparable<K>> {
         return pq[i].compareTo(pq[j]) < 0;
     }
 
-    private int parent(int num) {
-        return null;
+    /** 父节点的索引 */
+    int parent(int root) {
+        return root / 2;
+    }
+
+    /** 左孩子的索引 */
+    int left(int root) {
+        return root * 2;
+    }
+
+    /** 右孩子的索引 */
+    int right(int root) {
+        return root * 2 + 1;
+    }
+
+    /**
+     * 数组扩容 2倍
+     */
+    private void resize() {
+        pq = Arrays.copyOf(pq, 2 * n);
     }
 }
