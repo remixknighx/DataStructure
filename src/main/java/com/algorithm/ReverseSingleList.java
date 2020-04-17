@@ -13,7 +13,7 @@ public class ReverseSingleList {
         listNode.next.next.next.next = new ListNode(7);
         IterateReverse iterateReverse = new IterateReverse();
 //        ListNode reversedList = recursiveReverse.reverseN(listNode, 3);
-        ListNode reversedList = iterateReverse.reverseList(listNode);
+        ListNode reversedList = iterateReverse.reverseList(listNode, 1, 4);
         System.out.println(reversedList);
     }
 
@@ -40,6 +40,61 @@ class IterateReverse {
             p = tmp;
         }
 
+        return result;
+    }
+
+    /**
+     * 反转前n个节点
+     */
+    public ListNode reverseList(ListNode head, int n) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode p = head;
+        ListNode firstNode = head;
+        ListNode result = null;
+
+        while (n > 0) {
+            ListNode tmpNode = p.next;
+            p.next = result;
+            result = p;
+            p = tmpNode;
+            n--;
+        }
+
+        firstNode.next = p;
+
+        return result;
+    }
+
+    /**
+     * 反转区间[m, n]的节点
+     *
+     */
+    public ListNode reverseList(ListNode head, int m, int n) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        if (m == 1) {
+            return reverseList(head, n);
+        }
+
+        ListNode lastNode = new ListNode(head.val);
+        ListNode result = lastNode;
+        ListNode p = head;
+        while (m > 0) {
+            m--;
+            n--;
+            p = p.next;
+            if (m == 1) {
+                break;
+            }
+            lastNode.next = new ListNode(p.val);
+            lastNode = lastNode.next;
+        }
+        lastNode.next = reverseList(p, n);
         return result;
     }
 
