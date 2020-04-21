@@ -13,6 +13,7 @@ public class TwoSumExercise {
     }
 
     /**
+     * 两个数不相等
      * 通过哈希表减少时间复杂度
      * 时间复杂度O(N)，空间复杂度O(N)
      */
