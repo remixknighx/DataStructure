@@ -32,7 +32,7 @@ public class BinaryHeapPriorityQueue {
 
 }
 
-class PriorityQueue {
+class MyPriorityQueue {
 
 
     /**
@@ -44,7 +44,7 @@ class PriorityQueue {
      */
     private int size;
 
-    public PriorityQueue() {
+    public MyPriorityQueue() {
         //设定数组的初始值为32
         this.array = new int[32];
     }
