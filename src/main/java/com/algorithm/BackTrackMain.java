@@ -1,6 +1,6 @@
 package com.algorithm;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -10,11 +10,15 @@ import java.util.List;
 public class BackTrackMain {
 
     public static void main(String[] args) {
-        int[][] result = new NQueen().solveNQueens(8);
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result[i].length; j++) {
-                System.out.println(result[i][j]);
+        List<char[][]> result = new NQueen().solveNQueens(8);
+        for (int i = 0; i < result.size(); i++) {
+            for (int j = 0; j < result.get(i).length; j++) {
+                for (int k = 0; k < result.get(i)[j].length; k++) {
+                    System.out.print(result.get(i)[j][k]);
+                }
+                System.out.println("");
             }
+            System.out.println("===============================================");
         }
     }
 
@@ -47,8 +51,9 @@ class AllArrangeMent {
 
         for (int i = 0; i < nums.length; i++) {
             // 排除不合法的选择
-            if (track.contains(nums[i]))
+            if (track.contains(nums[i])) {
                 continue;
+            }
             // 做选择
             track.add(nums[i]);
             // 进入下一层决策树
@@ -65,19 +70,21 @@ class AllArrangeMent {
  */
 class NQueen {
 
-    int[][] res = null;
+    List<char[][]> res = null;
 
-    public int[][] solveNQueens(int n) {
-        res = new int[n][n];
-        backtrack(res, 0);
+    public List<char[][]> solveNQueens(int n) {
+        res = new ArrayList<>();
+        char[][] board = new char[n][n];
+        backtrack(board, 0);
         return res;
     }
 
-    private void backtrack(int[][] board, int row) {
+    private void backtrack(char[][] board, int row) {
         if (row == board.length) {
-            res = board;
+            res.add(cloneBoard(board));
             return;
         }
+
         for (int col = 0; col < board[row].length; col++) {
             if (!isValid(board, row, col)) {
                 continue;
@@ -85,33 +92,50 @@ class NQueen {
 
             board[row][col] = 'Q';
 
-            backtrack(board, row);
+            backtrack(board, row + 1);
 
             board[row][col] = '.';
 
         }
     }
 
-    private boolean isValid(int[][] board, int row, int col) {
+    private boolean isValid(char[][] board, int row, int col) {
         int n = board[row].length;
         // 检查列是否有皇后互相冲突
-        for (int i = 0; i < n; i++) {
-            if (board[i][col] == 'Q')
+        for (int i = 0; i < row; i++) {
+            if (board[i][col] == 'Q') {
                 return false;
+            }
         }
         // 检查右上方是否有皇后互相冲突
         for (int i = row - 1, j = col + 1;
              i >= 0 && j < n; i--, j++) {
-            if (board[i][j] == 'Q')
+            if (board[i][j] == 'Q') {
                 return false;
+            }
         }
         // 检查左上方是否有皇后互相冲突
         for (int i = row - 1, j = col - 1;
              i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q')
+            if (board[i][j] == 'Q') {
                 return false;
+            }
         }
         return true;
+    }
+
+    private char[][] cloneBoard(char[][] board) {
+        char[][] newBoard = new char[board.length][board[0].length];
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                if (board[i][j] == 0) {
+                    newBoard[i][j] = '.';
+                } else {
+                    newBoard[i][j] = board[i][j];
+                }
+            }
+        }
+        return newBoard;
     }
 
 }

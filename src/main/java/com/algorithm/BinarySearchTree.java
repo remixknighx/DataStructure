@@ -1,5 +1,8 @@
 package com.algorithm;
 
+/**
+ * 二叉搜索树
+ */
 public class BinarySearchTree {
 
     public static void main(String[] args) {
@@ -34,11 +37,17 @@ public class BinarySearchTree {
      */
     private static boolean isSameTree(TreeNode root1, TreeNode root2) {
         // 都为空的话，显然相同
-        if (root1 == null && root2 == null) return true;
+        if (root1 == null && root2 == null) {
+            return true;
+        }
         // 一个为空，一个非空，显然不同
-        if (root1 == null || root2 == null) return false;
+        if (root1 == null || root2 == null) {
+            return false;
+        }
         // 两个都非空，但 val 不一样也不行
-        if (root1.val != root2.val) return false;
+        if (root1.val != root2.val) {
+            return false;
+        }
 
         // root1 和 root2 该比的都比完了
         return isSameTree(root1.left, root2.left)
@@ -53,9 +62,15 @@ public class BinarySearchTree {
     }
 
     private static boolean isValidBST(TreeNode root, TreeNode min, TreeNode max) {
-        if (root == null) return true;
-        if (min != null && root.val <= min.val) return false;
-        if (max != null && root.val >= max.val) return false;
+        if (root == null) {
+            return true;
+        }
+        if (min != null && root.val <= min.val) {
+            return false;
+        }
+        if (max != null && root.val >= max.val) {
+            return false;
+        }
         return isValidBST(root.left, min, root)
                 && isValidBST(root.right, root, max);
     }
@@ -65,13 +80,18 @@ public class BinarySearchTree {
      */
     private static TreeNode insertIntoBST(TreeNode root, int val) {
         // 找到空位置插入新节点
-        if (root == null) return new TreeNode(val);
+        if (root == null) {
+            return new TreeNode(val);
+        }
         // if (root.val == val)
         //     BST 中一般不会插入已存在元素
-        if (root.val < val)
+        if (root.val < val) {
             root.right = insertIntoBST(root.right, val);
-        if (root.val > val)
+        }
+        if (root.val > val) {
             root.left = insertIntoBST(root.left, val);
+        }
+
         return root;
     }
 
@@ -79,11 +99,17 @@ public class BinarySearchTree {
      * 二叉树中删除一个节点
      */
     private static TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) return null;
+        if (root == null) {
+            return null;
+        }
         if (root.val == key) {
             // 这两个 if 把情况 1 和 2 都正确处理了
-            if (root.left == null) return root.right;
-            if (root.right == null) return root.left;
+            if (root.left == null) {
+                return root.right;
+            }
+            if (root.right == null) {
+                return root.left;
+            }
             // 处理情况 3
             TreeNode minNode = getMin(root.right);
             root.val = minNode.val;
@@ -98,7 +124,9 @@ public class BinarySearchTree {
 
     private static TreeNode getMin(TreeNode node) {
         // BST 最左边的就是最小的
-        while (node.left != null) node = node.left;
+        while (node.left != null) {
+            node = node.left;
+        }
         return node;
     }
 
