@@ -20,13 +20,8 @@ public class GuavaCache {
                         .maximumSize(100) // maximum 100 records can be cached
 //                        .expireAfterAccess(3, TimeUnit.SECONDS)
                         .expireAfterWrite(3, TimeUnit.SECONDS)
-                        .build(new CacheLoader<String, Employee>() {
-                            @Override
-                            public Employee load(String key) throws Exception {
-                                //make the expensive call
-                                return getFromDatabase(key);
-                            }
-                        });
+                        .recordStats()
+                        .build(CacheLoader.from(key -> getFromDatabase(key)));
 
         try {
             //on first invocation, cache will be populated with corresponding
