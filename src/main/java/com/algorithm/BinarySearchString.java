@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class BinarySearchString {
 
     public static void main(String[] args) {
-        String s = "aec";
-        String t = "cacbhbc";
+        String s = "aecc";
+        String t = "adfegfdcc";
         System.out.println(isSubsequence(s, t));
     }
 
