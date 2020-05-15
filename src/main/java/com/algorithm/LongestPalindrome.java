@@ -6,7 +6,7 @@ package com.algorithm;
 public class LongestPalindrome {
 
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("cbbd"));
+        System.out.println(longestPalindrome("rbcbabed"));
     }
 
     static String longestPalindrome(String s) {
