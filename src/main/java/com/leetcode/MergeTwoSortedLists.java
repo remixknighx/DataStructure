@@ -1,8 +1,8 @@
 package com.leetcode;
 
 /**
- * 将两个有序的链表合并成一个有序的链表
- * 参考：@link http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/
+ * 灏嗕袱涓湁搴忕殑閾捐〃鍚堝苟鎴愪竴涓湁搴忕殑閾捐〃
+ * 鍙傝�冿細@link http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/
  * 21. Merget Two Sorted Lists
  * @link https://leetcode.com/problems/merge-two-sorted-lists/#/description
  *
