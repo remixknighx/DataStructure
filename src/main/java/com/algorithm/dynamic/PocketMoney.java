@@ -11,7 +11,7 @@ public class PocketMoney {
 
     public static void main(String[] args) {
         List<Integer> coins = Arrays.asList(1, 2, 5);
-        int amount = 8;
+        int amount = 20;
         System.out.println(new CoinChange3().coinChange(coins, amount));
     }
 
@@ -97,22 +97,19 @@ class CoinChange3 {
     public int coinChange(List<Integer> coins, int amount) {
 
         // 数组大小为 amount + 1，初始值也为 amount + 1
-        List<Integer> dp = new ArrayList<>();
-        for (int i = 0; i <= amount + 1; i++) {
-            dp.add(i);
-        }
+        Map<Integer, Integer> dp = new HashMap<>();
 
         // base case
-        for (int i = 0; i < dp.size(); i++) {
+        for (int i = 0; i <= amount; i++) {
             for (int coin : coins) {
                 if (i - coin < 0) {
                     continue;
                 }
-                dp.set(i, Math.min(dp.get(i), 1 + dp.get(i - coin)));
+                dp.put(i, dp.getOrDefault(i-coin, 0)+1);
             }
         }
 
-        return dp.get(amount) == amount + 1 ? -1 : dp.get(amount);
+        return dp.get(amount);
     }
 
 }
