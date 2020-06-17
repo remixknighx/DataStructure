@@ -10,8 +10,8 @@ import java.util.*;
 public class PocketMoney {
 
     public static void main(String[] args) {
-        List<Integer> coins = Arrays.asList(1, 2, 5);
-        int amount = 20;
+        List<Integer> coins = Arrays.asList(3, 4, 5);
+        int amount = 10;
         System.out.println(new CoinChange3().coinChange(coins, amount));
     }
 
@@ -102,10 +102,11 @@ class CoinChange3 {
         // base case
         for (int i = 0; i <= amount; i++) {
             for (int coin : coins) {
-                if (i - coin < 0) {
+                if (i - coin < 0 || (dp.get(i - coin) == null && i - coin != 0)) {
                     continue;
                 }
-                dp.put(i, dp.getOrDefault(i-coin, 0)+1);
+
+                dp.put(i, dp.getOrDefault(i - coin, 0) + 1);
             }
         }
 
