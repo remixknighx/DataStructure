@@ -10,18 +10,18 @@ package com.leetcode;
 public class LengthOfLastWord {
 
     public static void main(String[] args) {
-        new LengthOfLastWord().lengthOfLastWord("a ");
+        System.out.println(new LengthOfLastWord().lengthOfLastWord("a "));
     }
 
     public int lengthOfLastWord(String s) {
-        if (s.lastIndexOf(' ') == -1) {
-            return s.length();
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        String[] sArray = s.split(" ");
+        if (sArray.length == 0) {
+            return 0;
         }
 
-        if (s.lastIndexOf(' ') + 1 == s.length()) {
-            return 0;
-        } else {
-            return s.substring(s.lastIndexOf(' ')+1).length();
-        }
+        return sArray[sArray.length-1].length();
     }
 }

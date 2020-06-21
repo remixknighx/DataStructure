@@ -1,5 +1,9 @@
 package com.leetcode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * 88. Merge Sorted Array
  * @link https://leetcode.com/problems/merge-sorted-array/#/description
@@ -9,26 +13,26 @@ package com.leetcode;
  */
 public class MergeSortedArray {
 
-    public int[] merge(int[] nums1, int m, int[] nums2, int n) {
+    public static void main(String[] args) {
+        int[] nums1 = {1,2,3,0,0,0};
+        int m = 3, n = 3;
+        int[] nums2 = {2,5,6};
+        new MergeSortedArray().merge(nums1, m, nums2, n);
+    }
 
-        int[] temp = nums1;
-        nums1 = new int[m + n];
-        int j = 0, k = 0;
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
 
-        for (int i = 0; i < m + n; i++) {
-            if (j != m && k != n) {
-                if (temp[j] < nums2[k]) {
-                    nums1[i] = temp[j++];
-                } else {
-                    nums1[i] = nums2[k++];
-                }
-            } else if (j == m) {
-                nums1[i] = nums2[k++];
-            } else {
-                nums1[i] = temp[j++];
-            }
+        int index = 0;
+
+        for (int i = 0; i < nums2.length; i++) {
+
+            nums1[index + m] = nums2[i];
+
+            index++;
+
         }
-        return nums1;
+
+        Arrays.sort(nums1);
     }
 
 }
