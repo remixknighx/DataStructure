@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import com.leetcode.easy.PathSum;
+import com.leetcode.easy.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,7 +23,7 @@ public class PathSumTest {
     @Test
     public void testHasPathSum() throws Exception {
         /**
-         * 树形结构
+         * 锟斤拷锟轿结构
          *           5
          *          / \
          *         4   8
@@ -45,7 +47,7 @@ public class PathSumTest {
         assertFalse(pathSum.hasPathSum(tree, 38));
 
         /**
-         * 树形结构
+         * 锟斤拷锟轿结构
          *        1
          *       /
          *      2

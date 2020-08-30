@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import com.leetcode.easy.LowestComAncestorOfBST;
+import com.leetcode.easy.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 

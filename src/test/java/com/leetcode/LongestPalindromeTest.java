@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import com.leetcode.easy.LongestPalindrome;
 import org.junit.Before;
 import org.junit.Test;
 

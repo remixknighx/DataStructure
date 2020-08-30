@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import com.leetcode.easy.ListNode;
+import com.leetcode.easy.RemoveDuplicatesFromSortedList;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import com.leetcode.easy.ValidAnagram;
 import org.junit.Before;
 import org.junit.Test;
 
