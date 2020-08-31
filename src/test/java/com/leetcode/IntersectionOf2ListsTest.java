@@ -1,11 +1,10 @@
 package com.leetcode;
 
 import com.leetcode.easy.IntersectionOf2Lists;
-import com.leetcode.easy.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author wangjf

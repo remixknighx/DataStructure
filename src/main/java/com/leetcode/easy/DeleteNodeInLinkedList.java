@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.ListNode;
+
 /**
  * 237. Delete Node in a Linked List
  * @link https://leetcode.com/problems/delete-node-in-a-linked-list/#/description

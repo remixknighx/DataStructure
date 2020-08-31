@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.ListNode;
+
 /**
  * 160. Intersection of Two Linked Lists
  * @link https://leetcode.com/problems/intersection-of-two-linked-lists/#/description

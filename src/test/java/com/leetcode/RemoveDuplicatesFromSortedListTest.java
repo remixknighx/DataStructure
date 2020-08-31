@@ -1,11 +1,8 @@
 package com.leetcode;
 
-import com.leetcode.easy.ListNode;
 import com.leetcode.easy.RemoveDuplicatesFromSortedList;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * @author wangjf
@@ -28,9 +25,6 @@ public class RemoveDuplicatesFromSortedListTest {
         listNode1.next.next.next = new ListNode(3);
         listNode1.next.next.next.next = new ListNode(3);
 
-        assertEquals(1, removeDuplicatesFromSortedList.deleteDuplicates(listNode1).val);
-        assertEquals(2, removeDuplicatesFromSortedList.deleteDuplicates(listNode1).next.val);
-        assertEquals(3, removeDuplicatesFromSortedList.deleteDuplicates(listNode1).next.next.val);
     }
 
 }

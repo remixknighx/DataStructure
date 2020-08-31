@@ -1,7 +1,6 @@
 package com.leetcode;
 
 import com.leetcode.easy.LinkedListCycle;
-import com.leetcode.easy.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 

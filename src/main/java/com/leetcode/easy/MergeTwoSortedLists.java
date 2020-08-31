@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.ListNode;
+
 /**
  * 将两个有序的链表合并成一个有序的链表
  * 参考：@link http://www.lintcode.com/zh-cn/problem/merge-two-sorted-lists/

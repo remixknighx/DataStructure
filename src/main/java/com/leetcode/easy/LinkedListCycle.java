@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.ListNode;
+
 /**
  * 141. Linked List Cycle
  * @link https://leetcode.com/problems/linked-list-cycle/#/description

@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.ListNode;
+
 /**
  * 203. Remove Linked List Elements
  * @link https://leetcode.com/problems/remove-linked-list-elements/#/description
