@@ -23,7 +23,7 @@ public class RemoveNthFromEnd {
         slow.next = head;
 
         //Move fast in front so that the gap between slow and fast becomes n
-        for (int i = 0; i <= ngenerateParenthesis; i++) {
+        for (int i = 0; i <= n; i++) {
             fast = fast.next;
         }
         //Move fast to the end, maintaining the gap
