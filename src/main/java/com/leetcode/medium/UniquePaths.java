@@ -6,8 +6,6 @@ package com.leetcode.medium;
  */
 public class UniquePaths {
 
-    private int count = 0;
-
     public static void main(String[] args) {
         System.out.println(new UniquePaths().uniquePaths(3, 2));
         System.out.println(new UniquePaths().uniquePaths(7, 3));
