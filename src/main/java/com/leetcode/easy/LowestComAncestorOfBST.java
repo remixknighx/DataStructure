@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 235. Lowest Common Ancestor of a Binary Search Tree
  * @link https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/#/description

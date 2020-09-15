@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 100. Same Tree
  * @link https://leetcode.com/problems/same-tree/#/description

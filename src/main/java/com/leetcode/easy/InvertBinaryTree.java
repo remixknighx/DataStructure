@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 226. Invert Binary Tree
  * @link https://leetcode.com/problems/invert-binary-tree/#/description

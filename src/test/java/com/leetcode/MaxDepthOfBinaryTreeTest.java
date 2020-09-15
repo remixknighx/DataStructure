@@ -1,7 +1,7 @@
 package com.leetcode;
 
 import com.leetcode.easy.MaxDepthOfBinaryTree;
-import com.leetcode.easy.TreeNode;
+import com.leetcode.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 101. Symmetric Tree
  * @link https://leetcode.com/problems/symmetric-tree/#/description

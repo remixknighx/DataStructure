@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 617. Merge Two Binary Trees
  * @link https://leetcode.com/problems/merge-two-binary-trees/#/description

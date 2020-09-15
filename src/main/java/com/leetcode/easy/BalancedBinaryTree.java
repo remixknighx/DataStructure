@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.TreeNode;
+
 /**
  * 110. Balanced Binary Tree
  * @link https://leetcode.com/problems/balanced-binary-tree/#/description

@@ -1,7 +1,6 @@
 package com.leetcode;
 
 import com.leetcode.easy.BinaryTreeLevelOrderTraversal;
-import com.leetcode.easy.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 
